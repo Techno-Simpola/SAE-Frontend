@@ -132,7 +132,7 @@ const Header = ({
                       navPosition && `header-nav-${navPosition}`
                     )}>
                     <li>
-                      <Link to="#0" onClick={closeMenu}>Team</Link>
+                      <Link to="/Team" onClick={closeMenu}>Team</Link>
                     </li>
                   </ul>
 

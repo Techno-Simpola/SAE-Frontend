@@ -44,8 +44,8 @@ const Testimonial = ({
   );
 
   const sectionHeader = {
-    title: 'Our testimonials',
-    paragraph: 'Vitae aliquet nec ullamcorper sit amet risus nullam eget felis semper quis lectus nulla at volutpat diam ut venenatis tellus—in ornare.'
+    title: 'We are present at',
+    paragraph: 'Various events and fests and neumerous competions and projects, we are not tired but enthusiast enough to achive the sky.'
   };
 
   return (
