@@ -1,1 +1,20 @@
-//enter your content here !
+.arhn{
+    height: 100vh;
+    width: 100vw;
+}
+
+.landingpage img{
+    height: 100vh;
+    width: 100vw;
+}
+
+.heading{
+    position: relative;
+}
+
+.hdng{
+    position: absolute;
+    top: -500px;
+    left: 29%;
+}
+
