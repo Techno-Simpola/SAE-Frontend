@@ -1,0 +1,24 @@
+/*－－－－－－－－－－ Profile －－－－－－－－－－*/
+.profile__img {
+     padding: 10px 30px; 
+  
+  }
+  
+  .profile__img .hjgf {
+    margin: 2% 4%;
+    float: left;
+    height: 250px;
+    /* padding-bottom: 40px;  */
+  }
+  
+  .profile__text{
+      text-align: left;
+      padding: 0 5% 5%;
+  }
+  .headingss{
+      text-align: center;
+  }
+
+  .divss{
+    margin-top: 10%;
+  }
