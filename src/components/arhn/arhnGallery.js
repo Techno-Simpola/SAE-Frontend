@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import 'import "../assets/css/arhnCSS/arhnGallery.css"'
+import "../assets/css/arhnCSS/arhnGallery.css";
 import CloseIcon from '@material-ui/icons/Close';
 import img2 from '../../assets/images/cc.JPG'
 import img3 from '../../assets/images/dd.JPG'

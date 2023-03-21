@@ -1,6 +1,6 @@
 import React from "react";
 import img1 from "../../assets/images/1.png";
-import "import "../assets/css/arhnCSS/arhnEvents.css"";
+import "../assets/css/arhnCSS/arhnEvents.css";
 
 const Events = () => {
   return (

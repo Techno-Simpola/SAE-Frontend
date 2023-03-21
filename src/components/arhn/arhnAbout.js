@@ -1,6 +1,6 @@
-import React from "react"
-import "../assets/css/arhnCSS/arhnAbout.css"
-import img from '../../assets/images/1.png'
+import React from "react";
+import "../assets/css/arhnCSS/arhnAbout.css";
+import img from '../../assets/images/1.png';
 const About =()=>{
    
     return(
