@@ -6,6 +6,12 @@
     flex-wrap: wrap;
 }
 
+.Heading-team-1{
+    font-size: 3rem !important;
+    font-weight: 900 !important;
+    text-align: center !important;
+}
+
 .box {
     width: 100%;
     max-width: 200px;
@@ -17,7 +23,7 @@
     overflow: hidden;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
     transition: 0.5s ease-in-out;
-    border-radius: 5px !important;
+    border-radius: 10px !important;
 }
 
 .box:hover {

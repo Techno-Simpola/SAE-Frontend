@@ -4,6 +4,7 @@ import classNames from 'classnames';
 import { Link } from 'react-router-dom';
 import Logo from './partials/Logo';
 
+
 const propTypes = {
   navPosition: PropTypes.string,
   hideNav: PropTypes.bool,
@@ -112,7 +113,7 @@ const Header = ({
                       navPosition && `header-nav-${navPosition}`
                     )}>
                     <li>
-                      <Link to="#0" onClick={closeMenu}>Home</Link>
+                      <Link to="/" onClick={closeMenu}>Home</Link>
                     </li>
                   </ul>
 
@@ -122,7 +123,7 @@ const Header = ({
                       navPosition && `header-nav-${navPosition}`
                     )}>
                     <li>
-                      <Link to="#0" onClick={closeMenu}>Events</Link>
+                      <Link to="/events" onClick={closeMenu}>Events</Link>
                     </li>
                   </ul>
 
@@ -132,7 +133,7 @@ const Header = ({
                       navPosition && `header-nav-${navPosition}`
                     )}>
                     <li>
-                      <Link to="/Team" onClick={closeMenu}>Team</Link>
+                      <Link to="/team" onClick={closeMenu}>Team</Link>
                     </li>
                   </ul>
 
@@ -142,7 +143,7 @@ const Header = ({
                       navPosition && `header-nav-${navPosition}`
                     )}>
                     <li>
-                      <Link to="#0" onClick={closeMenu}><b>TEDx</b></Link>
+                      <Link to="/ted" onClick={closeMenu}><b>TEDx</b></Link>
                     </li>
                   </ul>
                   {/* {!hideSignin &&
