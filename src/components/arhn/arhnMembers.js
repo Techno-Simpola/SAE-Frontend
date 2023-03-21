@@ -1,5 +1,5 @@
 import React from 'react'
-import 'import "../assets/css/arhnCSS/arhnMembers.css"'
+import "../assets/css/arhnCSS/arhnMembers.css";
 
 export const Member = () => {
   return (
