@@ -1,11 +1,11 @@
-import React from 'react'
-import '../assets/css/arhn.css'
-import img from '../../assets/images/200w.gif'
-import About from '../About_Arhn/About'
-import Events from '../Events/Events'
-import Team from '../Events/Team/Team'
-import Gallery from '../Gallery/Gallery'
-import { Member } from '../Member/Member'
+import React from 'react';
+import '../assets/css/arhn.css';
+import img from '../../assets/images/200w.gif';
+import About from '../components/arhn/arhnAbout';
+import Events from '../components/arhn/arhnEvents';
+import Team from '../components/arhn/arhnTeam';
+import Gallery from '../components/arhn/arhnGallery';
+import Member from '../components/arhn/arhnMembers';
 import BackgroundSlider from '../BackgroundSlider/BackgroundSlider'
 
 const Arhn = () => {
@@ -16,10 +16,10 @@ const Arhn = () => {
     </div>
     
     <About />
-   <Events />
-   <Team />
-   <Gallery />
-   <Member />
+    <Events />
+    <Team />
+    <Gallery />
+    <Member />
     </>
   )
 }
