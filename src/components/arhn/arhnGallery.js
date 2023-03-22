@@ -1,12 +1,12 @@
 import React, { useState } from 'react'
-import "../assets/css/arhnCSS/arhnGallery.css";
+import "../../assets/css/arhnCSS/arhnGallery.css";
 import CloseIcon from '@material-ui/icons/Close';
-import img2 from '../../assets/images/cc.JPG'
-import img3 from '../../assets/images/dd.JPG'
-import img4 from '../../assets/images/ee.JPG'
-import img5 from '../../assets/images/ff.JPG'
-import img6 from '../../assets/images/jj.JPG'
-import img7 from '../../assets/images/akb.JPG'
+import img3 from '../../assets/images/features-split-image-01.png'
+import img4 from '../../assets/images/features-split-image-01.png'
+import img2 from '../../assets/images/features-split-image-01.png'
+import img5 from '../../assets/images/features-split-image-01.png'
+import img6 from '../../assets/images/features-split-image-01.png'
+import img7 from '../../assets/images/features-split-image-01.png'
 
 const Gallery = () => {
 
@@ -88,9 +88,8 @@ const Gallery = () => {
       setModel(false)
     }} />
     </div>
-    <div className="gallery">
-    <h1 className="hdngng">Image Gallery</h1>
-     
+      <div className="gallery container">
+        <h1 className="hdngng">Image Gallery</h1>
      {data.map((item, index)=>
      {
        return(

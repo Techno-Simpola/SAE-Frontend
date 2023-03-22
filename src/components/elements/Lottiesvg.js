@@ -2,7 +2,7 @@ import React from 'react';
 import '@lottiefiles/lottie-player';
 import { create } from '@lottiefiles/lottie-interactivity';
 
-class Svg extends React.Component {
+className Svg extends React.Component {
   constructor(props) {
     super(props);
     this.myRef = React.createRef(); // 1. create a reference for the lottie player

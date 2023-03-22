@@ -1,10 +1,9 @@
 import React from "react";
-import img1 from "../../assets/images/1.png";
-import "../assets/css/arhnCSS/arhnEvents.css";
-
+import img1 from "../../assets/images/features-split-image-01.png";
+import "../../assets/css/arhnCSS/arhnEvents.css";
 const Events = () => {
   return (
-    <div className="container">
+    <div className="arhnEventUpper container">
 
       <h2 className="new">Our Events And Workshop In Aarohan</h2>
    <div className="card-container">

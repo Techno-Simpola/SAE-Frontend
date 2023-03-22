@@ -99,6 +99,7 @@ const Header = ({
                   <span className="hamburger-inner"></span>
                 </span>
               </button>
+              
               <nav
                 ref={nav}
                 className={
@@ -107,6 +108,7 @@ const Header = ({
                     isActive && 'is-active'
                   )}>
                 <div className="header-nav-inner">
+
                   <ul className={
                     classNames(
                       'list-reset text-xs',
@@ -156,16 +158,10 @@ const Header = ({
                     <Link to="/arhn" onClick={closeMenu}><b>Arhn</b></Link>
                   </li>
                 </ul>
-                  {/* {!hideSignin &&
-                    <ul
-                      className="list-reset header-nav-right"
-                    >
-                      <li>
-                        <Link to="#0" className="button button-primary button-wide-mobile button-sm" onClick={closeMenu}>Sign up</Link>
-                      </li>
-                    </ul>} */}
+
                 </div>
               </nav>
+              
             </>}
         </div>
       </div>
