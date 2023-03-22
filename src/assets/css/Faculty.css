@@ -1,15 +1,4 @@
-/* *{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-} */
-
-body{
-    background-color: rgba(235, 195, 52,0.2);
-   
-}
-
-.container-fluid{
+.faculty-upper{
     margin: 0 auto;
     max-width: 1000px;
     padding: 30px 20px;
@@ -22,41 +11,39 @@ body{
     text-align: center;
 }
 
-
 .center h1{
     font-size: 55px;
     font-weight: 700;
     margin-bottom: 20px;
-    color:rgb(249, 0, 0);
-
-   
+    color:#CA3435;
 }
 
 .our-team-text{
     margin: 0 auto;
     max-width: 700px;
     line-height: 1.8;
-    color: #fa0808;
+    color: #CA3435;
     margin-bottom: 40px;
 }
 
 .cards{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 30px;
-    /* padding-left: 8%; */
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    gap: 5px !important;
 }
 
-.card{
-    background-color: #f9f2f2;
-    border-radius: 10px;
+.faculty-card{
+    background-color: #2e2e2e;
+    border-radius: 8px !important;
     padding: 30px 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    height: 400px !important;
 }
 
-.card img{
+.faculty-card img{
     height: 150px;
     width: 150px;
     object-fit: cover;
@@ -64,21 +51,21 @@ body{
     margin-bottom: 30px;
 }
 
-.card .card-name{
+.faculty-card .card-name{
     margin-bottom: 10px;
     font-weight: 500;
     font-size: 24px;
-    color: #fa0808;
+    color: #CA3435;
 }
 
-.card .card-text{
-    font-size: 16px;
+.faculty-card .card-text{
+font-size: 16px;
     color: #888;
     margin-bottom: 40px;
     text-align:center;
 }
 
-.card .btn{
+.faculty-card .btn{
     padding: 15px 60px;
     box-shadow: 2px 2px 8px rgba(0,0,0,0.3);
     border-radius: 50px;
@@ -87,7 +74,7 @@ body{
     transition: 0.3s ease;
 }
 
-.card .btn:hover{
+.faculty-card .btn:hover{
     box-shadow: -2px -2px rgba(0,0,0,0.3);
     transform: translateY(-5px);
 }

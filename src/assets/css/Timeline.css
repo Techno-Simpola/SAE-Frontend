@@ -1,6 +1,7 @@
-.main-timeline{ position: relative; }
-.main-timeline:before,
-.main-timeline:after{
+.main-timeline{
+     position: relative;
+}
+.main-timeline:before, .main-timeline:after{
     content: "";
     display: block;
     width: 100%;

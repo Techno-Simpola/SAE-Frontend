@@ -1,14 +1,14 @@
 /* TITRE */
-h1 {
+.headingOffB{
     margin-top: 0;
     font-size: 3rem;
     display: inline-block;
   }
-  h1 div {
+.headingOffB div {
     position: relative;
     float: left;
   }
-  h1 div:first-child {
+.headingOffB div:first-child {
     color: #3498db;
     margin-right: 1rem;
   }
@@ -58,10 +58,10 @@ h1 {
     text-align: center;
     overflow: hidden;
     position: relative;
-    border-bottom: 5px solid #ea0b0b;
+    border-bottom: 5px solid #CA3435;
   }
   .our-team:hover {
-    border-bottom: 5px solid  #ea0b0b;
+    border-bottom: 5px solid  #CA3435;
   }
   
   .our-team .pic {
@@ -88,7 +88,7 @@ h1 {
   }
   .our-team:hover .pic:before {
     height: 100%;
-    background: #de0808;
+    background: #CA3435;
   }
   .our-team .pic:after {
     content: "";
@@ -172,7 +172,7 @@ h1 {
   .rule{
     display: block;
     margin: auto;
-    background-color: #f31010;
+    background-color: #CA3435;
     height: 7px;
     margin-top: 10px;
   }

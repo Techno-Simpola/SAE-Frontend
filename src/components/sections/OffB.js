@@ -1,4 +1,5 @@
 import React from "react";
+import classNames from "classnames";
 import "../../assets/css/OffB.css";
 import image from "../../assets/images/Divas.jpg"
 import Shubham from "../../assets/images/Shubham.jpg"
@@ -24,86 +25,86 @@ function OffB() {
   return (
     <>
       <hr className="rule" width="100px" margin="auto" />
-      <div class="container pb-4">
-        <div class="row blog">
-          <h1 class="center mx-auto text-center py-4">Office Bearers</h1>
+      <div className="container pb-4">
+        <div className="row blog">
+          <h1 className="center mx-auto text-center py-4 heading-OffB">Office Bearers</h1>
 
-          <div class="col-md-12">
-            <div id="blogCarousel" class="carousel slide" data-ride="carousel">
-              <ol class="invisible carousel-indicators">
+          <div className="col-md-12">
+            <div id="blogCarousel" className="carousel slide" data-ride="carousel">
+              <ol className="invisible carousel-indicators">
                 <li
                   data-target="#blogCarousel"
                   data-slide-to="0"
-                  class="active"
+                  className="active"
                 ></li>
                 <li data-target="#blogCarousel" data-slide-to="1"></li>
               </ol>
 
-              <div class="carousel-inner">
-                <div class="carousel-item active">
-                  <div class="row">
-                    <div class="col-lg-3 col-md-6 col-sm-6">
-                      <div class="our-team">
-                        <div class="pic">
+              <div className="carousel-inner">
+                <div className="carousel-item active">
+                  <div className="row">
+                    <div className="col-lg-3 col-md-6 col-sm-6">
+                      <div className="our-team">
+                        <div className="pic">
                         <img src={image} />
                         </div>
-                        <div class="team-content">
-                          <h3 class="title">Divas Gupta</h3>
-                          <span class="post">President</span>
+                        <div className="team-content">
+                          <h3 className="title">Divas Gupta</h3>
+                          <span className="post">President</span>
                         </div>
-                        <ul class="social">
+                        <ul className="social">
                           <li>
-                            <a href="#" class="fa fa-envelope"></a>
+                            <a href="#" className="fa fa-envelope"></a>
                           </li>
                         </ul>
                       </div>
                     </div>
 
-                    <div class="col-lg-3 col-md-6 col-sm-6">
-                      <div class="our-team">
-                        <div class="pic">
+                    <div className="col-lg-3 col-md-6 col-sm-6">
+                      <div className="our-team">
+                        <div className="pic">
                           <img src= {Anurag}/>
                         </div>
-                        <div class="team-content">
-                          <h3 class="title">Anurag Singh</h3>
-                          <span class="post">General Secretary</span>
+                        <div className="team-content">
+                          <h3 className="title">Anurag Singh</h3>
+                          <span className="post">General Secretary</span>
                         </div>
-                        <ul class="social">
+                        <ul className="social">
                           <li>
-                            <a href="#" class="fa fa-envelope"></a>
+                            <a href="#" className="fa fa-envelope"></a>
                           </li>
                         </ul>
                       </div>
                     </div>
-                    <div class="col-lg-3 col-md-6 col-sm-6">
-                      <div class="our-team">
-                        <div class="pic">
+                    <div className="col-lg-3 col-md-6 col-sm-6">
+                      <div className="our-team">
+                        <div className="pic">
                           <img src={Aniket} />
                         </div>
-                        <div class="team-content">
-                          <h3 class="title">Aniket Panigrahi</h3>
-                          <span class="post">Treasurer</span>
+                        <div className="team-content">
+                          <h3 className="title">Aniket Panigrahi</h3>
+                          <span className="post">Treasurer</span>
                         </div>
-                        <ul class="social">
+                        <ul className="social">
                           <li>
-                            <a href="#" class="fa fa-envelope"></a>
+                            <a href="#" className="fa fa-envelope"></a>
                           </li>
                         </ul>
                       </div>
                     </div>
 
-                    <div class="col-lg-3 col-md-6 col-sm-6">
-                      <div class="our-team">
-                        <div class="pic">
+                    <div className="col-lg-3 col-md-6 col-sm-6">
+                      <div className="our-team">
+                        <div className="pic">
                           <img src={Satyam}/>
                         </div>
-                        <div class="team-content">
-                          <h3 class="title">SSJ</h3>
-                          <span class="post">Vice President</span>
+                        <div className="team-content">
+                          <h3 className="title">SSJ</h3>
+                          <span className="post">Vice President</span>
                         </div>
-                        <ul class="social">
+                        <ul className="social">
                           <li>
-                            <a href="#" class="fa fa-envelope"></a>
+                            <a href="#" className="fa fa-envelope"></a>
                           </li>
                         </ul>
                       </div>
@@ -111,212 +112,212 @@ function OffB() {
                   </div>
                 </div>
 
-                <div class="carousel-item">
-                  <div class="row">
-                    <div class="col-lg-3 col-md-6 col-sm-6">
-                      <div class="our-team">
-                        <div class="pic">
+                <div className="carousel-item">
+                  <div className="row">
+                    <div className="col-lg-3 col-md-6 col-sm-6">
+                      <div className="our-team">
+                        <div className="pic">
                           <img src={Hemanth} />
                         </div>
-                        <div class="team-content">
-                          <h3 class="title">S Hemanth </h3>
-                          <span class="post">Vice President</span>
+                        <div className="team-content">
+                          <h3 className="title">S Hemanth </h3>
+                          <span className="post">Vice President</span>
                         </div>
-                        <ul class="social">
+                        <ul className="social">
                           <li>
-                            <a href="#" class="fa fa-envelope"></a>
+                            <a href="#" className="fa fa-envelope"></a>
                           </li>
                         </ul>
                       </div>
                     </div>
 
-                    <div class="col-lg-3 col-md-6 col-sm-6">
-                      <div class="our-team">
-                        <div class="pic">
+                    <div className="col-lg-3 col-md-6 col-sm-6">
+                      <div className="our-team">
+                        <div className="pic">
                           <img src={Souryadip} />
                         </div>
-                        <div class="team-content">
-                          <h3 class="title">Souryadip Mondal</h3>
-                          <span class="post">Asst General Seceratry</span>
+                        <div className="team-content">
+                          <h3 className="title">Souryadip Mondal</h3>
+                          <span className="post">Asst General Seceratry</span>
                         </div>
-                        <ul class="social">
+                        <ul className="social">
                           <li>
-                            <a href="#" class="fa fa-envelope"></a>
+                            <a href="#" className="fa fa-envelope"></a>
                           </li>
                         </ul>
                       </div>
                     </div>
-                    <div class="col-lg-3 col-md-6 col-sm-6">
-                      <div class="our-team">
-                        <div class="pic">
+                    <div className="col-lg-3 col-md-6 col-sm-6">
+                      <div className="our-team">
+                        <div className="pic">
                           <img src={Sukanya} />
                         </div>
-                        <div class="team-content">
-                          <h3 class="title">Sukanya Dutta</h3>
-                          <span class="post">Convener</span>
+                        <div className="team-content">
+                          <h3 className="title">Sukanya Dutta</h3>
+                          <span className="post">Convener</span>
                         </div>
-                        <ul class="social">
+                        <ul className="social">
                           <li>
-                            <a href="#" class="fa fa-envelope"></a>
+                            <a href="#" className="fa fa-envelope"></a>
                           </li>
                         </ul>
                       </div>
                     </div>
 
-                    <div class="col-lg-3 col-md-6 col-sm-6">
-                      <div class="our-team">
-                        <div class="pic">
+                    <div className="col-lg-3 col-md-6 col-sm-6">
+                      <div className="our-team">
+                        <div className="pic">
                           <img src={Soumyadeep} />
                         </div>
-                        <div class="team-content">
-                          <h3 class="title">Soumyadeep Das</h3>
-                          <span class="post">Co-Convener</span>
+                        <div className="team-content">
+                          <h3 className="title">Soumyadeep Das</h3>
+                          <span className="post">Co-Convener</span>
                         </div>
-                        <ul class="social">
+                        <ul className="social">
                           <li>
-                            <a href="#" class="fa fa-envelope"></a>
+                            <a href="#" className="fa fa-envelope"></a>
                           </li>
                         </ul>
                       </div>
                     </div>
                   </div>
                 </div>
-                <div class="carousel-item">
-                  <div class="row">
-                    <div class="col-lg-3 col-md-6 col-sm-6">
-                      <div class="our-team">
-                        <div class="pic">
+                <div className="carousel-item">
+                  <div className="row">
+                    <div className="col-lg-3 col-md-6 col-sm-6">
+                      <div className="our-team">
+                        <div className="pic">
                           <img src={Anik} />
                         </div>
-                        <div class="team-content">
-                          <h3 class="title">Anik Mondal</h3>
-                          <span class="post">
+                        <div className="team-content">
+                          <h3 className="title">Anik Mondal</h3>
+                          <span className="post">
                             Head of Corporate Communications
                           </span>
                         </div>
-                        <ul class="social">
+                        <ul className="social">
                           <li>
-                            <a href="#" class="fa fa-envelope"></a>
+                            <a href="#" className="fa fa-envelope"></a>
                           </li>
                         </ul>
                       </div>
                     </div>
 
-                    <div class="col-lg-3 col-md-6 col-sm-6">
-                      <div class="our-team">
-                        <div class="pic">
+                    <div className="col-lg-3 col-md-6 col-sm-6">
+                      <div className="our-team">
+                        <div className="pic">
                           <img src="https://i.ibb.co/L8Pj1mg/o6EuTCT6.jpg" />
                         </div>
-                        <div class="team-content">
-                          <h3 class="title">Vishal Jaiswal</h3>
-                          <span class="post">Operation Head</span>
+                        <div className="team-content">
+                          <h3 className="title">Vishal Jaiswal</h3>
+                          <span className="post">Operation Head</span>
                         </div>
-                        <ul class="social">
+                        <ul className="social">
                           <li>
-                            <a href="#" class="fa fa-envelope"></a>
+                            <a href="#" className="fa fa-envelope"></a>
                           </li>
                         </ul>
                       </div>
                     </div>
-                    <div class="col-lg-3 col-md-6 col-sm-6">
-                      <div class="our-team">
-                        <div class="pic">
+                    <div className="col-lg-3 col-md-6 col-sm-6">
+                      <div className="our-team">
+                        <div className="pic">
                           <img src={Souptik} />
                         </div>
-                        <div class="team-content">
-                          <h3 class="title">Souptik Das</h3>
-                          <span class="post">Operation Head</span>
+                        <div className="team-content">
+                          <h3 className="title">Souptik Das</h3>
+                          <span className="post">Operation Head</span>
                         </div>
-                        <ul class="social">
+                        <ul className="social">
                           <li>
-                            <a href="#" class="fa fa-envelope"></a>
+                            <a href="#" className="fa fa-envelope"></a>
                           </li>
                         </ul>
                       </div>
                     </div>
 
-                    <div class="col-lg-3 col-md-6 col-sm-6">
-                      <div class="our-team">
-                        <div class="pic">
+                    <div className="col-lg-3 col-md-6 col-sm-6">
+                      <div className="our-team">
+                        <div className="pic">
                           <img src={Shivaji} />
                         </div>
-                        <div class="team-content">
-                          <h3 class="title">V Shivaji Ganesh Naidu </h3>
-                          <span class="post">Technical Head</span>
+                        <div className="team-content">
+                          <h3 className="title">V Shivaji Ganesh Naidu </h3>
+                          <span className="post">Technical Head</span>
                         </div>
-                        <ul class="social">
+                        <ul className="social">
                           <li>
-                            <a href="#" class="fa fa-envelope"></a>
+                            <a href="#" className="fa fa-envelope"></a>
                           </li>
                         </ul>
                       </div>
                     </div>
                   </div>
                 </div>
-                <div class="carousel-item">
-                  <div class="row">
-                    <div class="col-lg-3 col-md-6 col-sm-6">
-                      <div class="our-team">
-                        <div class="pic">
+                <div className="carousel-item">
+                  <div className="row">
+                    <div className="col-lg-3 col-md-6 col-sm-6">
+                      <div className="our-team">
+                        <div className="pic">
                           <img src={Aayush} />
                         </div>
-                        <div class="team-content">
-                          <h3 class="title">Aayush Kumar</h3>
-                          <span class="post">Logistics Head </span>
+                        <div className="team-content">
+                          <h3 className="title">Aayush Kumar</h3>
+                          <span className="post">Logistics Head </span>
                         </div>
-                        <ul class="social">
+                        <ul className="social">
                           <li>
-                            <a href="#" class="fa fa-envelope"></a>
+                            <a href="#" className="fa fa-envelope"></a>
                           </li>
                         </ul>
                       </div>
                     </div>
 
-                    <div class="col-lg-3 col-md-6 col-sm-6">
-                      <div class="our-team">
-                        <div class="pic">
+                    <div className="col-lg-3 col-md-6 col-sm-6">
+                      <div className="our-team">
+                        <div className="pic">
                           <img src="https://i.ibb.co/L8Pj1mg/o6EuTCT6.jpg" />
                         </div>
-                        <div class="team-content">
-                          <h3 class="title">Arpan Das</h3>
-                          <span class="post">Logistics Head</span>
+                        <div className="team-content">
+                          <h3 className="title">Arpan Das</h3>
+                          <span className="post">Logistics Head</span>
                         </div>
-                        <ul class="social">
+                        <ul className="social">
                           <li>
-                            <a href="#" class="fa fa-envelope"></a>
+                            <a href="#" className="fa fa-envelope"></a>
                           </li>
                         </ul>
                       </div>
                     </div>
-                    <div class="col-lg-3 col-md-6 col-sm-6">
-                      <div class="our-team">
-                        <div class="pic">
+                    <div className="col-lg-3 col-md-6 col-sm-6">
+                      <div className="our-team">
+                        <div className="pic">
                           <img src={Shubham}/>
                         </div>
-                        <div class="team-content">
-                          <h3 class="title">Shubham Gupta</h3>
-                          <span class="post">Webd Head</span>
+                        <div className="team-content">
+                          <h3 className="title">Shubham Gupta</h3>
+                          <span className="post">Webd Head</span>
                         </div>
-                        <ul class="social">
+                        <ul className="social">
                           <li>
-                            <a href="#" class="fa fa-envelope"></a>
+                            <a href="#" className="fa fa-envelope"></a>
                           </li>
                         </ul>
                       </div>
                     </div>
 
-                    <div class="col-lg-3 col-md-6 col-sm-6">
-                      <div class="our-team">
-                        <div class="pic">
+                    <div className="col-lg-3 col-md-6 col-sm-6">
+                      <div className="our-team">
+                        <div className="pic">
                           <img src={Anshika} />
                         </div>
-                        <div class="team-content">
-                          <h3 class="title">Anshika Chaudhary</h3>
-                          <span class="post">Webd Head</span>
+                        <div className="team-content">
+                          <h3 className="title">Anshika Chaudhary</h3>
+                          <span className="post">Webd Head</span>
                         </div>
-                        <ul class="social">
+                        <ul className="social">
                           <li>
-                            <a href="#" class="fa fa-envelope"></a>
+                            <a href="#" className="fa fa-envelope"></a>
                           </li>
                         </ul>
                       </div>

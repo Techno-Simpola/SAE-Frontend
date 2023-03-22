@@ -1,7 +1,7 @@
 import React from "react";
 import { useEffect, useRef } from "react";
 import classNames from "classnames";
-import '../../assets/css/Timeline.css';
+import '../../assets/css/timeline.css';
 import Image from "../../assets/images/aarhn.png";
 import Events from "../../assets/images/events.jpg";
 import Tedx from "../../assets/images/tedx.jpeg.jpg";
