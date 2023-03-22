@@ -1,6 +1,7 @@
 import React from 'react';
 import classNames from 'classnames';
-import "../assets/css/ted.css";
+import Home from '../components/tedx/tedxHome';
+
 
 function Ted() {
   return (

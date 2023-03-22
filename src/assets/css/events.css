@@ -261,7 +261,7 @@ html {
   grid-column-start: auto;
   grid-row-start: auto;
   color: #fff;
-  background: url("./DandD/dd2.JPG");
+  background: url("../images/dd2.JPG");
   background-size: cover;
   background-position: center;
   box-shadow: -2px 2px 10px 0px rgba(68, 68, 68, 0.4);
