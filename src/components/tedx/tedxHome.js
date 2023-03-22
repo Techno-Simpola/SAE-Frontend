@@ -1,6 +1,6 @@
 import React from 'react';
-import './ted.css'
-import Gallery from './ted_gallery';
+import '../assets/css/tedCSS/home.css'
+import Gallery from './tedxGallery';
 import img3 from '../../assets/images/bg3-ted.jpg';
 import img4 from '../../assets/images/tedxnitdgp.png';
 import sp1 from '../../assets/images/ted_sp.png'
