@@ -2,8 +2,8 @@ import React from "react";
 import classNames from 'classnames';
 import "../assets/css/team.css";
 // import 'bootstrap/dist/css/bootstrap.min.css';
-import 'bootstrap';
-import 'react-bootstrap';
+import "bootstrap";
+import "react-bootstrap";
 import finalYear from "../assets/Teams/finalYear.js"
 import prefinalYear from "../assets/Teams/prefinalYear.js"
 import secondYear from "../assets/Teams/secondYear.js"

@@ -1,21 +1,24 @@
 import React from 'react';
 import classNames from 'classnames';
 import "../../assets/css/arhnCSS/arhnMembers.css";
+import "bootstrap";
+import "react-bootstrap";
+
 export const Member = () => {
   return (
     <>
        
-<div className="container pb-4">
+<div className="container membersArhn pb-4 my-4">
     <div className="row blog">
         <h1 className="center mx-auto text-center py-4">Our Team Members</h1>
        
 	   <div className="col-md-12">
             <div id="blogCarousel" className="carousel slide" data-ride="carousel">
 
-                <ol className="invisible carousel-indicators">
+                {/* <ol className="invisible carousel-indicators">
                     <li data-target="#blogCarousel" data-slide-to="0" className="active"></li>
                     <li data-target="#blogCarousel" data-slide-to="1"></li>
-                </ol>
+                </ol> */}
 
                
                 <div className="carousel-inner">

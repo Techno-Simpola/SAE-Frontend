@@ -25,6 +25,7 @@ function ted()
 {
     return (
 <div>
+    <div className='transparent-background-ted'></div>
     <div className='landing'>
     <img className='img1' src={img3}></img> 
     <img className='img2' src={img4}></img> 

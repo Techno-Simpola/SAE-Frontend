@@ -4,15 +4,15 @@ import "../../assets/css/arhnCSS/backgroundSlider.css";
 
 const imageSlider =[
     {
-        url: 'hh.JPG',
+        url: 'https://images.pexels.com/photos/16035064/pexels-photo-16035064.png?auto=compress&cs=tinysrgb&w=600&lazy=load ',
         title: 'Image Slider 1'
     },
     {
-        url: 'dd.JPG',
+        url: 'https://picsum.photos/200/300 ',
         title: 'Image Slider 2'
     },
     {
-        url: 'ff.JPG',
+        url: 'https://images.pexels.com/photos/16035064/pexels-photo-16035064.png?auto=compress&cs=tinysrgb&w=600&lazy=load  ',
         title: 'Image Slider 3'
     },
 ]

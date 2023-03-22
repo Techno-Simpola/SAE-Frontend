@@ -2,6 +2,18 @@
     height:600px;
     margin-bottom:80px;
 }
+
+.transparent-background-ted{
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-image: linear-gradient(to top, rgba(77, 93, 200, 0.5), rgba(0,0,0,0.5))
+}
+
+
 .img1{
     position: relative;
     width:100%;
