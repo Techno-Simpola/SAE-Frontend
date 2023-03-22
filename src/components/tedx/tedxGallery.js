@@ -1,6 +1,6 @@
 
 import React, { useState } from 'react'
-import './style.css'
+import '../assets/css/tedCSS/style.css'
 import CloseIcon from '@material-ui/icons/Close';
 
 import img4 from '../../assets/images/g1.JPG'
