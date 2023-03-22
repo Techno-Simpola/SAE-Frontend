@@ -33,9 +33,9 @@
     z-index:0
   }
   @keyframes fader {
-    0%,30%,100%{ background-image:url('./e1.JPG')}
-  33%,60% { background-image: url('./e2.JPG'); }
-  63%,97% { background-image: url('./e3.JPG') }
+    0%,30%,100%{ background-image:url('../images/e1.JPG')}
+    33%,60% { background-image: url('../images/e1.JPG'); }
+    63%,97% { background-image: url('../images/e1.JPG') }
   }
   .hero h1{
     padding:.5em;
@@ -156,22 +156,22 @@ html {
   counter-increment: sdv-sdv-item-counter;
 }
 .sdv-item:nth-of-type(1n) {
-  background-image: url("./SDV/sdv3.JPG");
+  background-image: url("../images/sdv3.JPG");
 }
 .sdv-item:nth-of-type(2n) {
-  background-image: url("./SDV/sdv6.JPG");
+  background-image: url("../images/sdv6.JPG");
 }
 .sdv-item:nth-of-type(3n) {
-  background-image: url("./SDV/sdv2.JPG");
+  background-image: url("../images/sdv2.JPG");
 }
 .sdv-item:nth-of-type(4n) {
-  background-image: url("./SDV/sdv1.JPG");
+  background-image: url("../images/sdv1.JPG");
 }
 .sdv-item:nth-of-type(5n) {
-  background-image: url("./SDV/sdv4.JPG");
+  background-image: url("../images/sdv4.JPG");
 }
 .sdv-item:nth-of-type(6n) {
-  background-image: url("./SDV/sdv5.JPG");
+  background-image: url("../images/sdv5.JPG");
 }
 .sdv-item:after {
   content: "";
@@ -270,16 +270,16 @@ html {
   counter-increment: item-counter;
 }
 .item:nth-of-type(3n) {
-  background-image: url("./DandD/dd1.JPG");
+  background-image: url("../images/dd1.JPG");
 }
 .item:nth-of-type(4n) {
-  background-image: url("./DandD/dd3.JPG");
+  background-image: url("../images/dd3.JPG");
 }
 .item:nth-of-type(5n) {
-  background-image: url("./DandD/dd4.JPG");
+  background-image: url("../images/dd4.JPG");
 }
 .item:nth-of-type(6n) {
-  background-image: url("./DandD/dd5.JPG");
+  background-image: url("../images/dd5.JPG");
 }
 .item:after {
   content: "";
