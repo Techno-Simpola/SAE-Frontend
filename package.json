@@ -12,6 +12,8 @@
     "bootstrap": "^5.2.3",
     "classnames": "^2.2.6",
     "gsap": "^3.11.5",
+    "lint": "^0.8.19",
+    "loadash": "^1.0.0",
     "lodash": "^4.17.15",
     "react": "^16.13.1",
     "react-bootstrap": "^2.7.2",
@@ -27,6 +29,7 @@
     "url": "https://github.com/cruip/open-react-template.git"
   },
   "scripts": {
+    "lint": "eslint.js",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
