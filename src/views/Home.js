@@ -21,7 +21,6 @@ const Home = () => {
       <FeaturesSplit invertMobile topDivider imageFill className="illustration-section-02" />
       <Timeline />
       <FeaturesTiles />
-      {/* <Cta split /> */}
       <Lastpart/>
     </>
   );
