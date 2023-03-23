@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import "../../assets/css/arhnCSS/arhnGallery.css";
-import CloseIcon from '@material-ui/icons/Close';
+// import CloseIcon from '@material-ui/icons/Close';
 import img3 from '../../assets/images/features-split-image-01.png'
 import img4 from '../../assets/images/features-split-image-01.png'
 import img2 from '../../assets/images/features-split-image-01.png'
@@ -83,20 +83,17 @@ const Gallery = () => {
     <>
     <div className={model ? "model open" : "model"}>
     <img src={tempimgSrc} alt="" />
-    <CloseIcon onClick={()=>
+    {/* <CloseIcon onClick={()=>
     {
       setModel(false)
-    }} />
+    }} /> */}
     </div>
       <div className="gallery container">
         <h1 className="hdngng">Image Gallery</h1>
      {data.map((item, index)=>
      {
        return(
-         <div className="pics" key={index} onClick={()=>
-         {
-           getImg(item.imgSrc)
-         }}>
+         <div className="pics" key={index}>
            <img src={item.imgSrc} alt="" style={{width:"100%"}} />
          </div>
        )

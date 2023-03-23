@@ -1,7 +1,7 @@
 
 import React, { useState } from 'react';
 import '../../assets/css/tedCSS/style.css';
-import CloseIcon from '@material-ui/icons/Close';
+// import CloseIcon from '@material-ui/icons/Close';
 
 import img4 from '../../assets/images/g1.JPG'
 import img2 from '../../assets/images/g2.JPG'
@@ -85,20 +85,17 @@ const Gallery = () => {
     <>
     <div className={model ? "model open" : "model"}>
     <img src={tempimgSrc} alt="" />
-    <CloseIcon onClick={()=>
+    {/* <CloseIcon onClick={()=>
     {
       setModel(false)
-    }} />
+    }} /> */}
     </div>
     <div className="gallery">
      
      {data.map((item, index)=>
      {
        return(
-         <div className="pics" key={index} onClick={()=>
-         {
-           getImg(item.imgSrc)
-         }}>
+         <div className="pics" key={index}>
            <img src={item.imgSrc} alt="" style={{width:"100%"}} />
          </div>
        )
