@@ -196,6 +196,13 @@ export const Member = () => {
     <p>Leela Prasad</p> 
   </div>
   </div>
+
+  <div className="arhn_card">
+  <div className="arhn_card_image"> <img src='https://live.staticflickr.com/65535/52769919127_c24b8a862b_n.jpg'></img> </div>
+  <div className="arhn_card_title title-white">
+    <p>Sri Chandana</p> 
+  </div>
+  </div>
   </div>
     </div>
     </div>

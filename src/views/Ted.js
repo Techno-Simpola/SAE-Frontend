@@ -80,7 +80,38 @@ Social Entrepreneur</p>
           <h2 className="profile__name">Kenidra Woods</h2>
           <p>
 Mental Health Advocate/Social Justice Activist</p>
-          <img alt="Profile shot for Marc Dixon" src='https://live.staticflickr.com/65535/52768682746_ed0a33ed4d_n.jpg' />
+          <img alt="Profile shot for Marc Dixon" src='https://live.staticflickr.com/65535/52768682746_ed0a33ed4d_n.jpg'  />
+        </div>
+        <div  className="profile">
+          <h2 className="profile__name">Dr.Munish Jindal</h2>
+          <p>Founder and CEO</p>
+          <img alt="Profile shot for Marc Dixon" src='https://live.staticflickr.com/65535/52772375546_06039b64b1_w.jpg' />
+        </div>
+        <div  className="profile">
+          <h2 className="profile__name">Suhas Gopinath</h2>
+          <p>
+Entrepreneur</p>
+          <img alt="Profile shot for Marc Dixon" src='https://live.staticflickr.com/65535/52771844567_2b29ebc322_w.jpg' />
+        </div>
+        <div  className="profile">
+          <h2 className="profile__name">Jade Winters</h2>
+          <p> Novelist/Director</p>
+          <img alt="Profile shot for Marc Dixon" src='https://live.staticflickr.com/65535/52772633304_bee854eee1_w.jpg' />
+        </div>
+        <div  className="profile">
+          <h2 className="profile__name">Kamna Chhibber</h2>
+          <p>Head - Mental Health</p>
+          <img alt="Profile shot for Marc Dixon" src='https://live.staticflickr.com/65535/52772790055_82ccde498d_w.jpg' />
+        </div>
+        <div  className="profile">
+          <h2 className="profile__name">Rupesh Mahore</h2>
+          <p>Researcher and Innovator</p>
+          <img alt="Profile shot for Marc Dixon" src='https://live.staticflickr.com/65535/52772859828_7274302060_w.jpg' />
+        </div>
+        <div  className="profile">
+          <h2 className="profile__name">Kishwar Chowdhury</h2>
+          <p>Chef - MasterChef Austrila Finalist</p>
+          <img alt="Profile shot for Marc Dixon" src='https://live.staticflickr.com/65535/52772790115_38b3e817ae_w.jpg' />
         </div>
        
     </div>
@@ -278,6 +309,12 @@ Mental Health Advocate/Social Justice Activist</p>
   <div className="card_image"> <img src='https://live.staticflickr.com/65535/52768634016_8ba58bf81e_n.jpg'></img> </div>
   <div className="card_title title-white">
     <p>Leela Prasad</p> 
+  </div>
+  </div>
+  <div className="card">
+  <div className="card_image"> <img src='https://live.staticflickr.com/65535/52769919127_c24b8a862b_n.jpg'></img> </div>
+  <div className="card_title title-white">
+    <p>Sri Chandana</p> 
   </div>
   </div>
   </div>

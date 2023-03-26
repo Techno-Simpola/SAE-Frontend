@@ -3,7 +3,7 @@ const secondYear=[
         "url":"https://live.staticflickr.com/65535/52769439002_ab1b5da2e3_w.jpg",
         "name":"Shibraj",
         "position":"Junior Coordinator",
-        "instaLink":"",
+        "instaLink":"https://instagram.com/_s_h_i_b_raj?igshid=YmMyMTA2M2Y=",
         "linkedinLink":"https://www.linkedin.com/in/shibraj-deb-26247b22a/",
     },
     {
