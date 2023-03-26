@@ -4,15 +4,15 @@ import "../../assets/css/arhnCSS/backgroundSlider.css";
 
 const imageSlider =[
     {
-        url: 'https://images.pexels.com/photos/16035064/pexels-photo-16035064.png?auto=compress&cs=tinysrgb&w=600&lazy=load ',
+        url: 'http://localhost:3000/static/media/arhn11.1f8159d7fa04a4d7a037.jpg',
         title: 'Image Slider 1'
     },
     {
-        url: 'https://picsum.photos/200/300 ',
+        url: 'http://localhost:3000/static/media/akb.0c06ac78ae18ac08e4a7.JPG',
         title: 'Image Slider 2'
     },
     {
-        url: 'https://images.pexels.com/photos/16035064/pexels-photo-16035064.png?auto=compress&cs=tinysrgb&w=600&lazy=load  ',
+        url: 'http://localhost:3000/static/media/arhn7.968ac25a7e273c7ce5d4.jpg',
         title: 'Image Slider 3'
     },
 ]
@@ -42,9 +42,9 @@ const BackgroundSlider = () => {
     const bgImageStyle = {
         backgroundImage: `url(${imageSlider[currentState].url})`,
         backgroundPosition:'center',
-        backgroundSize:'contain',
+        backgroundSize:'cover',
         backgroundRepeat:'no-repeat',
-        width:"100%",
+        width:"100vw",
         height:'100%'
     }
 
