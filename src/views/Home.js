@@ -9,6 +9,8 @@ import Lastpart from '../components/sections/Lastpart';
 import Faculty from '../components/sections/Faculty';
 import OffB from '../components/sections/OffB';
 // import Cta from '../components/sections/Cta';
+import {Baja} from '../components/sections/Baja'
+import { Cryptech } from '../components/sections/Cryptech';
 
 const Home = () => {
 
@@ -17,10 +19,12 @@ const Home = () => {
       <Hero className="illustration-section-01" />
       <Testimonial topDivider />
       <Faculty />
-      <OffB />
+      {/* <OffB /> */}
       <FeaturesSplit invertMobile topDivider imageFill className="illustration-section-02" />
       {/* <Timeline /> */}
-      <FeaturesTiles />
+      {/* <FeaturesTiles /> */}
+      <Baja/>
+      <Cryptech/>
       <Lastpart/>
     </>
   );
