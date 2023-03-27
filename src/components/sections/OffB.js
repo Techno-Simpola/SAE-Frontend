@@ -329,7 +329,6 @@ function OffB() {
             </div>
           </div>
         </div>
-        {/* <hr className="rule1" width="100px" margin="auto" /> */}
       </div>
     </>
   );

@@ -78,7 +78,6 @@
 .main-timeline .timeline-content{
     text-align: center;
     margin-top:30px;
-    /* margin-top: 8px; */
     position: relative;
     transition: all 0.3s ease 0s;
 }
@@ -272,7 +271,6 @@
 }
 .main-timeline .timeline:nth-child(even){
     margin-bottom: 90px;
-    /* margin-bottom: 180px; */
 }
 .main-timeline .timeline:first-child,
 .main-timeline .timeline:last-child:nth-child(even){

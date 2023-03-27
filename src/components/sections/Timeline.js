@@ -49,7 +49,6 @@ function Timeline() {
                     <div className="row">
                         <div className="col-md-12">
                             <div className="main-timeline">
-                                {/* <p>OUR ACHIEVEMENTS</p> */}
                                 <div className="timeline">
                                     <div className="timeline-content">
                                         <div className="circle"><span className="homebox">
@@ -57,7 +56,6 @@ function Timeline() {
                                         </span></div>
                                         <div className="content">
                                             <span className="year">Aarohan</span>
-                                            {/* <h3 className="title h4">Heading</h3> */}
                                             <p className="description">
                                                 The vibrant college life is incomplete without a fest and constitutes a major part of the life of students. It etches a mark on the academic calendar and students look forward to the dates.
                                             </p>
@@ -70,7 +68,6 @@ function Timeline() {
                                         <div className="circle"><span className="homebox"><img src={Tedx} className="img" /></span></div>
                                         <div className="content">
                                             <span className="year">TEDx</span>
-                                            {/* <h3 className="title h4">Heading</h3> */}
                                             <p className="description">
                                                 Sed blandit libero volutpat sed cras. Adipiscing elit pellentesque habitant morbi tristique senectus et netus et. Aliquam ultrices sagittis orci a. Ipsum nunc aliquet bibendum enim facilisis.
                                             </p>
@@ -83,7 +80,6 @@ function Timeline() {
                                         <div className="circle"><span className="homebox"><img src={Events} className="img" /></span></div>
                                         <div className="content">
                                             <span className="year">Our Events</span>
-                                            {/* <h3 className="title h4">Heading</h3> */}
                                             <p className="description">
                                                 College events shape the social and intellectual fabric of our college's campus. College students, especially freshmen, want new and authentic ways to connect.We conduct various events all the year round to stand out and improve student engagement with our event ideas
                                             </p>
@@ -96,7 +92,6 @@ function Timeline() {
                                         <div className="circle"><span className="homebox"><img src={SocialMedia} className="img soc-med" /></span></div>
                                         <div className="content">
                                             <span className="year">Social Media</span>
-                                            {/* <h3 className="title h4">Heading</h3> */}
                                             <div>
                                             
                                             <p className="description">

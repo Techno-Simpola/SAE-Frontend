@@ -1,38 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
 
-/* 
-=========================
-Fonts
-=========================
 
-font-family: 'Outfit', sans-serif;
-
-*/
 
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
 
-/* 
-========================
-Variables
-========================
-*/
 
 
 :root {
     
     font-size: 15px;
     
-    /* Primary */
+    
     --var-soft-blue: hsl(215, 51%, 70%);
     --var-cyan: hsl(178, 100%, 50%);
-    /* Neutral */
+   
     --var-main-darkest: hsl(217, 54%, 11%);
     --var-card-dark: hsl(216, 50%, 16%);
     --var-line-dark: hsl(215, 32%, 27%);
     --var-lightest: white;
     
-    /* Fonts */
     
     --var-heading: normal normal 600 1.5em/1.6em 'Outfit', sans-serif;
     
@@ -41,43 +28,22 @@ Variables
     --var-para: normal normal 300 1em/1.55em 'Outfit', sans-serif;
 }
 
-/* 
-=======================
-Setup
-=======================
-*/
 
 
 
 
-/* 
-img {
-    width: 100%;
-    border-radius: 15px;
-    display: block;
-} */
+
 
 .new{
     margin-top: 0;
     padding: 10px;
     margin-right: 11%;
-    /* position: absolute; */
     top: 27.6%;
     left: 26%;
     color:hsl(227, 27%, 80%);
 }
 
-/* 
 
-Eye view
-
-https://i.postimg.cc/9MtT4GZY/view.png' border='0' alt='view */
-
-/*
-=========================
-Font Styling
-=========================
-*/
 
 .hdng {
     font: var(--var-heading);
@@ -88,7 +54,7 @@ Font Styling
 .hdng2 {
     font: var(--var-small-heading);
     color: var(--var-lightest);
-    /* padding on .coin-base */
+    
 }
 
 .para {
@@ -103,13 +69,7 @@ Font Styling
 span {
     color: white;
 }
-/* 
-=====================
-Classes
-=====================
-*/
 
-/* LAYOUT */
 .arhnEventUpper{
     display: flex;
     align-items:center;
@@ -152,7 +112,7 @@ a.hero-image-container {
 
 
 
-/* Details */
+
 
 @media (min-width:400px) {
   img.eye {

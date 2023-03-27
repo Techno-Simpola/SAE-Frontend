@@ -20,7 +20,6 @@ const Events = () => {
 <p>SAE hosts a thrilling event 'Drag&Drift' which includes various maze designs with obstacles and avoiding the pesky obstacles subsequently knowing the underlying working of the car.</p>
 </div>
 
-{/* Drag and Drift contents */}
 
 <section class="DandD-section">
   <div class="DandDgrid">
@@ -45,7 +44,6 @@ const Events = () => {
 <p>Technology nowadays is only getting smarter and better as the years go by; Driverless cars are a big success.SAE in collaboration with IEEE SB conducts a workshop on developing the Self Driving vehicle prototype while mastering the fundamentals of Autonomous driving, robotics, and Algorithm designs.</p>
 </div>
 
-{/* Self Driving Vehicle contents */}
 <section class="sdvSection">
 
 <div class="sdv-grid">
@@ -69,7 +67,6 @@ const Events = () => {
 </div>
 </section>
 
-{/* F.I.S.T */}
 <div className='heading1'>
 <h1 >F.I.S.T </h1>
 <p>FIST Seminar: 
@@ -93,7 +90,6 @@ Technological innovations aim to transfer the cognitive load from humans to mach
 </section>
 
 
-{/* AAROHAN */}
 <div className='heading1'>
 <h1 >Aarhon</h1>
 <p>SAE in Aarohan: 
@@ -131,7 +127,6 @@ SAE is also a part of Team Aavishkar which conducts Aarohan, NIT Durgapur's annu
 </div>
 
 
-{/* TEDx */}
 <div className='heading1'>
 <h1 >TEDx</h1>
 <p>TEDx: 

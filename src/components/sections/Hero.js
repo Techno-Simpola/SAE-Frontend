@@ -51,9 +51,7 @@ const Hero = ({
       <div className="container-sm">
         <div className={innerClasses}>
           <div className="hero-content" style={{ textAlign: "center"}}>
-            {/* <h1 className="mt-0 mb-16 reveal-from-bottom" style={{ alignItems: "center", justifyContent: "center" }} data-reveal-delay="200">
-              <p className="text-color-primary" style={{ marginBottom: "70px"}}>SAENITD</p>
-            </h1> */}
+           
             <div className="container-xs">
               <p className="m-0 mb-32 reveal-from-bottom" style={{ fontSize: "48px", fontWeight: "bolder", color: "#CA3435" }} data-reveal-delay="400">
                 SAENITD

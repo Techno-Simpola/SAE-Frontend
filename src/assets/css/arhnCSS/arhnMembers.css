@@ -1,4 +1,4 @@
-/* TITRE */
+
 .center {
     margin-top: 0;
     font-size: 3rem;
@@ -19,7 +19,7 @@
     color: #3498db;
     margin-right: 1rem;
   }
-  /* PROFIL */
+  
   .blog .carousel-indicators {
       left: 0;
       top: auto;
@@ -27,7 +27,7 @@
   
   }
   
-  /* The colour of the indicators */
+  
   .blog .carousel-indicators li {
       background: #a3a3a3;
       border-radius: 50%;
