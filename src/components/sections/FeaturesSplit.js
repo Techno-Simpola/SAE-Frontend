@@ -3,7 +3,6 @@ import classNames from 'classnames';
 import { SectionSplitProps } from '../../utils/SectionProps';
 import SectionHeader from './partials/SectionHeader';
 import Image from '../elements/Image';
-// import SAEARNH from '../../assets/images/SAEARHN.JPG'
 import GIF from '../../assets/images/About.gif'
 import Ted from '../../assets/images/ted3.JPG'
 import './FeatureSplit.css'

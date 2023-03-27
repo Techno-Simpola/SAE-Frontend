@@ -15,9 +15,7 @@ const defaultProps = {
 const Testimonial = ({
   className,
   topOuterDivider,
-  // bottomOuterDivider,
   topDivider,
-  // bottomDivider,
   hasBgColor,
   invertColor,
   pushLeft,
@@ -27,7 +25,6 @@ const Testimonial = ({
   const outerClasses = classNames(
     'testimonial section',
     topOuterDivider && 'has-top-divider',
-    // bottomOuterDivider && 'has-bottom-divider',
     hasBgColor && 'has-bg-color',
     invertColor && 'invert-color',
     className

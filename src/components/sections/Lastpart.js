@@ -1,8 +1,6 @@
 import React, { useState } from 'react';
 import classNames from 'classnames';
 import { SectionProps } from '../../utils/SectionProps';
-// import ButtonGroup from '../elements/ButtonGroup';
-// import Button from '../elements/Button';
 import Image from '../elements/Image';
 import Modal from '../elements/Modal';
 import '.././../assets/scss/style.scss';
@@ -54,21 +52,6 @@ const Hero = ({
     bottomDivider && 'has-bottom-divider'
   );
 
-//   var Iframe = React.createClass({     
-//   render: function() {
-//     return(         
-//       <div>          
-//         <iframe src={this.props.src} height={this.props.height} width={this.props.width}/>         
-//       </div>
-//     )
-//   }
-// });
-
-// ReactDOM.render(
-//   <Iframe src="http://plnkr.co/" height="500" width="500"/>,
-//   document.getElementById('example')
-// );
-
   return (
    <>
    
@@ -104,30 +87,6 @@ const Hero = ({
             handleClose={closeModal}
             video="https://www.youtube.com/embed/RhcsBIH-WJw"
             videoTag="iframe" />
-
-            {/* <div className='overflow-hidden'>
-                <div className='flex -mx-4 img-ticker'>
-                    <Image className='w-64 mx-4 self-start flex-none' src={require('./../../assets/images/features-split-image-01.png')}/>
-                    <Image className='w-64 mx-4 self-start flex-none' src={require('./../../assets/images/features-split-image-01.png')}/>
-                    <Image className='w-64 mx-4 self-start flex-none' src={require('./../../assets/images/features-split-image-01.png')}/>
-                    <Image className='w-64 mx-4 self-start flex-none' src={require('./../../assets/images/features-split-image-01.png')}/>
-                    <Image className='w-64 mx-4 self-start flex-none' src={require('./../../assets/images/features-split-image-01.png')}/>
-                    <Image className='w-64 mx-4 self-start flex-none' src={require('./../../assets/images/features-split-image-01.png')}/>
-                    <Image className='w-64 mx-4 self-start flex-none' src={require('./../../assets/images/features-split-image-01.png')}/> */}
-
-                {/* copy set of images */}
-                  {/* <Image className='w-64 mx-4 self-start flex-none' src={require('./../../assets/images/features-split-image-01.png')}/>
-                    <Image className='w-64 mx-4 self-start flex-none' src={require('./../../assets/images/features-split-image-01.png')}/>
-                    <Image className='w-64 mx-4 self-start flex-none' src={require('./../../assets/images/features-split-image-01.png')}/>
-                    <Image className='w-64 mx-4 self-start flex-none' src={require('./../../assets/images/features-split-image-01.png')}/>
-                    <Image className='w-64 mx-4 self-start flex-none' src={require('./../../assets/images/features-split-image-01.png')}/>
-                    <Image className='w-64 mx-4 self-start flex-none' src={require('./../../assets/images/features-split-image-01.png')}/>
-                    <Image className='w-64 mx-4 self-start flex-none' src={require('./../../assets/images/features-split-image-01.png')}/>
-
-                </div>
-            </div>        */}
-
-        
         </div>
       </div>
     </section>
