@@ -7,7 +7,6 @@ html{
     display: flex !important;
     align-items: center !important;
     justify-content: center !important;
-    /* margin-top: 100px !important; */
     flex-wrap: wrap;
 
 }
@@ -18,7 +17,6 @@ html{
     height: 320px;
     margin: 15px;
     display: flex;
-    /* flex-direction: column; */
     flex-wrap:wrap;
     position: relative;
     overflow: hidden;
@@ -123,7 +121,6 @@ html{
     display:inline-block;
     display: flex;
     justify-content: center;
-    /* padding-left: 15%;    */
 }
 
 .text {
@@ -173,7 +170,6 @@ html{
   
   .social-links a .fab {
     font-size: 30px;
-    /* line-height: 2px; */
     position: relative;
     z-index: 10;
     transition: color 0.5s;
@@ -206,7 +202,6 @@ html{
 
   
 .navbar {
-  /* top:2%; */
   width:100%;
   list-style-type: none;
   margin: auto;
