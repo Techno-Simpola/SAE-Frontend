@@ -191,10 +191,10 @@ const secondYear=[
         "linkedinLink":"https://www.linkedin.com/in/sai-prakash-katravath-090a5a235",
     },
     {
-        "url":"" ,
+        "url":"https://live.staticflickr.com/65535/52776733306_014204a074_m.jpg" ,
         "name":"AGNIBHO",
         "position":"Junior Coordinator",
-        "instaLink":"https://www.instagram.com/.agnibho._/?hl=en",
+        "instaLink":"https://www.instagram.com/p/CltOcmjSom4dyd1xqGdx7wkOpgPeHKyjguOJ7U0/?igshid=ODM2MWFjZDg=",
         "linkedinLink":"",
     },
    
