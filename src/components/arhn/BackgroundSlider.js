@@ -4,15 +4,15 @@ import "../../assets/css/arhnCSS/backgroundSlider.css";
 
 const imageSlider =[
     {
-        url: 'http://localhost:3000/static/media/arhn11.1f8159d7fa04a4d7a037.jpg',
+        url: 'https://live.staticflickr.com/65535/52777017494_c596d0d092_z.jpg',
         title: 'Image Slider 1'
     },
     {
-        url: 'http://localhost:3000/static/media/akb.0c06ac78ae18ac08e4a7.JPG',
+        url: 'https://live.staticflickr.com/65535/52777017524_df91386e0e_z.jpg',
         title: 'Image Slider 2'
     },
     {
-        url: 'http://localhost:3000/static/media/arhn7.968ac25a7e273c7ce5d4.jpg',
+        url: 'https://live.staticflickr.com/65535/52777017544_5595c4aa3d_w.jpg',
         title: 'Image Slider 3'
     },
 ]
