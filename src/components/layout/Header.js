@@ -27,9 +27,9 @@ const Header = () => {
       >
       <a href='/' className={currentPage === "/" ? "active" : ""}>Home</a>
       <a href='events' className={currentPage === "/events" ? "active" : ""}>Events</a>
-        <a href="/team">Teams</a>
-        <a href="/ted">TEDx</a>
-        <a href="/arhn">Arhn</a>
+      <a href="/team">Teams</a>
+      <a href="/ted">TEDx</a>
+      <a href="/arhn">Arhn</a>
     
       </div>
       <div
