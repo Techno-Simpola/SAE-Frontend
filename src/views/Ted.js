@@ -48,7 +48,7 @@ function ted()
    <Gallery />
   </div>
    <div className='speakers'>
-    <h1>speakers</h1>
+    <h1>Speakers</h1>
   <div className="team">
       
         <div  className="profile">
@@ -81,6 +81,37 @@ Social Entrepreneur</p>
           <p>
 Mental Health Advocate/Social Justice Activist</p>
           <img alt="Profile shot for Marc Dixon" src='https://live.staticflickr.com/65535/52768682746_ed0a33ed4d_n.jpg' />
+        </div>
+        <div  className="profile">
+          <h2 className="profile__name">Kishwar Chowdhury</h2>
+          <p>Chef</p>
+          <img alt="Profile shot for Marc Dixon" src='https://live.staticflickr.com/65535/52772790115_38b3e817ae_w.jpg' />
+        </div>
+        <div  className="profile">
+          <h2 className="profile__name">Dr.Munish Jindal</h2>
+          <p>Founder</p>
+          <img alt="Profile shot for Marc Dixon" src='https://live.staticflickr.com/65535/52772375546_06039b64b1_w.jpg' />
+        </div>
+        <div  className="profile">
+          <h2 className="profile__name">Mr.Suhas Gopinath</h2>
+          <p>CEO</p>
+          <img alt="Profile shot for Marc Dixon" src='https://live.staticflickr.com/65535/52771844567_2b29ebc322_w.jpg' />
+        </div>
+        <div  className="profile">
+          <h2 className="profile__name">Jade Winters</h2>
+          <p>Novelist/Director</p>
+          <img alt="Profile shot for Marc Dixon" src='https://live.staticflickr.com/65535/52772633304_bee854eee1_w.jpg' />
+        </div>
+        <div  className="profile">
+          <h2 className="profile__name">Kamna Chhibber</h2>
+          <p>Head of the Department of  Mental Health</p>
+          <img alt="Profile shot for Marc Dixon" src='https://live.staticflickr.com/65535/52772790055_82ccde498d_w.jpg' />
+        </div>
+       
+        <div  className="profile">
+          <h2 className="profile__name">Rupesh Mahore</h2>
+          <p>Entrepreneur</p>
+          <img alt="Profile shot for Marc Dixon" src='https://live.staticflickr.com/65535/52772859828_7274302060_w.jpg' />
         </div>
        
     </div>
@@ -141,12 +172,7 @@ Mental Health Advocate/Social Justice Activist</p>
     <p>Sukanya Dutta</p> 
   </div>
   </div>
-   <div className="card">
-  <div className="card_image"> <img src='https://live.staticflickr.com/65535/52768144667_55a3199cd3_n.jpg'></img> </div>
-  <div className="card_title title-white">
-    <p>Navin Pathak</p> 
-  </div>
-  </div>
+  
 
   <div className="card">
   <div className="card_image"> <img src='https://live.staticflickr.com/65535/52767981077_c0293c8bee_n.jpg'></img> </div>
@@ -278,6 +304,12 @@ Mental Health Advocate/Social Justice Activist</p>
   <div className="card_image"> <img src='https://live.staticflickr.com/65535/52768634016_8ba58bf81e_n.jpg'></img> </div>
   <div className="card_title title-white">
     <p>Leela Prasad</p> 
+  </div>
+  </div>
+  <div className="card">
+  <div className="card_image"> <img src='https://live.staticflickr.com/65535/52768144667_55a3199cd3_n.jpg'></img> </div>
+  <div className="card_title title-white">
+    <p>Navin Pathak</p> 
   </div>
   </div>
   </div>
