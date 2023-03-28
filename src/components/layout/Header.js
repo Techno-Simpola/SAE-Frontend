@@ -6,7 +6,11 @@ import Logo from './partials/Logo';
 import SAELOGO from '../../assets/images/saeLogo.png'
 import '../../assets/css/header.css'
 
-
+import Home from '../../views/Home';
+import Team from '../../views/Team';
+import Events from '../../views/Events';
+import Arhn from '../../views/Arhn';
+import Ted from '../../views/Ted';
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -25,11 +29,30 @@ const Header = () => {
       
       
       >
-      <a href='/' className={currentPage === "/" ? "active" : ""}>Home</a>
-      <a href='events' className={currentPage === "/events" ? "active" : ""}>Events</a>
-        <a href="/team">Teams</a>
-        <a href="/ted">TEDx</a>
-        <a href="/arhn">Arhn</a>
+      <Link to='/' className={currentPage === "/" ? "active" : ""}>Home</Link>
+      <Link to='events' className={currentPage === "/events" ? "active" : ""}>Events</Link>
+        <Link to="/team">Teams</Link>
+        <Link to="/ted">TEDx</Link>
+        <Link to="/arhn">Aarohan</Link> 
+
+
+
+        {/* <li className={currentPage === "/" ? "active" : ""}>
+          <Link to="/">Home</Link>
+        </li>
+        <li className={currentPage === "/events" ? "active" : ""}>
+          <Link to="/events">Events</Link>
+        </li>
+        <li>
+          <Link to="/ted">Tedx</Link>
+        </li>
+        <li>
+          <Link to="/arhn">Aarohan</Link>
+        </li>
+        <li>
+          <Link to="/team">Team</Link>
+        </li> */}
+      
     
       </div>
       <div
