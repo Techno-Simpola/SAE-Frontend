@@ -3,9 +3,9 @@ import PropTypes from 'prop-types';
 import classNames from 'classnames';
 import { Link } from 'react-router-dom';
 import Logo from './partials/Logo';
-import SAELOGO from '../../assets/images/saeLogo.png'
+import SAELOGO from '../../assets/images/SAE_White.png'
 import '../../assets/css/header.css'
-
+import Final_logo from '../../assets/images/Logo_final.png'
 import Home from '../../views/Home';
 import Team from '../../views/Team';
 import Events from '../../views/Events';
@@ -21,19 +21,23 @@ const Header = () => {
     const pathName = window.location.pathname;
     setCurrentPage(pathName);
   }, []);
+    
+const toggle = () => setIsOpen(!isOpen);
+
+
 
   return (
     <div className="tedNavbar">
-        <span className="nav-logo"><img src={SAELOGO} id="header-logo"></img></span>
+        <span className="nav-logo"><img src={Final_logo} id="header-logo"></img></span>
       <div className={`nav-items ${isOpen && "open"}`}
       
       
       >
-      <Link to='/' className={currentPage === "/" ? "active" : ""}>Home</Link>
-      <Link to='events' className={currentPage === "/events" ? "active" : ""}>Events</Link>
-        <Link to="/team">Teams</Link>
-        <Link to="/ted">TEDx</Link>
-        <Link to="/arhn">Aarohan</Link> 
+      <Link onClick={toggle} to='/' className={currentPage === "/" ? "active" : ""}>Home</Link>
+      <Link onClick={toggle} to='events' className={currentPage === "/events" ? "active" : ""}>Events</Link>
+        <Link onClick={toggle} to="/team">Teams</Link>
+        <Link  onClick={toggle} to="/ted">TEDx</Link>
+        <Link  onClick={toggle} to="/arhn">Aarohan</Link> 
 
 
 

@@ -236,7 +236,7 @@ color:rgb(35, 35, 35);
 
 @media only screen and (max-width: 820px){
   .navbar a{
-    font-size: 17px;
+    font-size: 16px;
   }
 
 } 
@@ -250,7 +250,7 @@ color:rgb(35, 35, 35);
       margin: 0;
     }
     .navbar a{
-      font-size: 10px;
+      font-size: 9px;
       font-weight: 400;
       padding: 0;
     }

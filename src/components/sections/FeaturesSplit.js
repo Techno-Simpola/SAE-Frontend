@@ -1,5 +1,6 @@
 import React from 'react';
 import classNames from 'classnames';
+import { Link , to} from 'react-router-dom';
 import { SectionSplitProps } from '../../utils/SectionProps';
 import SectionHeader from './partials/SectionHeader';
 import Image from '../elements/Image';
@@ -105,7 +106,7 @@ const FeaturesSplit = ({
                   SAE in TEDx
                   </h3>
                 <p className="m-0">
-                SAE also conducts TEDxNITDurgapur a part of TED along with Literary Circle, a worldwide, grassroots initiative, that aims to provide a platform for a symphony of voices from a plethora of spheres to propagate ingenious ideas and thoughts. / <a id="tedx-link" className='color-success' href='/ted'>..Know More</a>
+                SAE also conducts TEDxNITDurgapur a part of TED along with Literary Circle, a worldwide, grassroots initiative, that aims to provide a platform for a symphony of voices from a plethora of spheres to propagate ingenious ideas and thoughts. / <Link id="tedx-link" className='color-success' to='/ted'>..Know More</Link>
                   </p>
               </div>
               <div className={
@@ -132,9 +133,9 @@ const FeaturesSplit = ({
                   </h3>
                 <p className="m-0">
                 SAE is also a part of Team Aavishkar which conducts Aarohan, NIT Durgapur's annual Techno-management fest, which includes all facets of technical and festive enthusiasm.
-                 <a id="Arhn-link" href='/arhn'>
+                 <Link id="Arhn-link" to='/arhn'>
                       ..Know More
-                 </a> </p>
+                 </Link> </p>
               </div>
               <div className={
                 classNames(
