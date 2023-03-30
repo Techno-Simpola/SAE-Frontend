@@ -73,7 +73,7 @@ const Hero = ({
             >
               <Image
                 className="has-shadow"
-                src="https://img.youtube.com/vi/RhcsBIH-WJw/maxresdefault.jpg"
+                src="https://i3.ytimg.com/vi/yXN0HLjVojg/hqdefault.jpg"
                 alt="Hero"
                 width={896}
                 height={504} />
@@ -85,7 +85,7 @@ const Hero = ({
             id="video-modal"
             show={videoModalActive}
             handleClose={closeModal}
-            video="https://www.youtube.com/embed/RhcsBIH-WJw"
+            video="https://www.youtube.com/embed/yXN0HLjVojg"
             videoTag="iframe" />
         </div>
       </div>

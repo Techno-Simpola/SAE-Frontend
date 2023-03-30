@@ -1,4 +1,5 @@
 import React from "react";
+import { Link, to } from "react-router-dom";
 import Baha from "../../assets/images/Baha.jpg";
 import './Baja.css'
 
@@ -22,9 +23,9 @@ export const Baja = () => {
           The team designs, fabricates and competes against other All-Terrain
           Vehicles at an event popularly called as BAJA SAE which is held
           annually every year at Pithampur, Indore.
-          <a href="https://saenitdgp-self.vercel.app/baja">
+          <Link to="https://saenitdgp-self.vercel.app/baja">
             <button id="button-baha">Read more</button>
-          </a>
+          </Link>
         </div>
       </div>
       </div>

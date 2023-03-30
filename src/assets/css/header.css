@@ -76,7 +76,6 @@
     }
   
     .tedNavbar>.nav-items {
-  
       position: fixed;
       top: 0;
       left: 0;
@@ -102,7 +101,6 @@
         font-size: 24px;
       }
       
-  
     .tedNavbar>.nav-items.open {
       transform: translateY(0);
     }

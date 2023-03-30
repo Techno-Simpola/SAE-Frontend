@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link, to } from 'react-router-dom';
 import PropTypes from 'prop-types';
 import classNames from 'classnames';
 import Logo from './partials/Logo';
@@ -45,7 +46,7 @@ const Footer = ({
           </div>
           <div className="footer-bottom space-between text-xxs invert-order-desktop">
             <FooterNav />
-            <div className="footer-copyright">Made by <a href="">SAE-Dev</a>. All right reserved</div>
+            <div className="footer-copyright">Made by <Link to="">SAE-Dev</Link>. All right reserved</div>
           </div>
         </div>
       </div>

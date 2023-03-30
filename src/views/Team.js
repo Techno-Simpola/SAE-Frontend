@@ -1,4 +1,5 @@
 import React from "react";
+import { Link, to } from "react-router-dom";
 import classNames from 'classnames';
 import "../assets/css/team.css";
 // import 'bootstrap/dist/css/bootstrap.min.css';
