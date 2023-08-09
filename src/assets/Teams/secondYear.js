@@ -1,5 +1,4 @@
 const junior = [
-    
     {
         "url":"https://live.staticflickr.com/65535/52965821941_f27650736c_n.jpg",
         "name":"Aman Singh",
