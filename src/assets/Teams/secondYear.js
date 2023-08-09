@@ -32,9 +32,6 @@ const junior = [
         "url":"https://live.staticflickr.com/65535/52965150282_c3272a86f7_n.jpg",
         "name":"Chandan Roy",
         "position":"Junior Coordinator",
-<<<<<<< HEAD
-        "instaLink":"",
-=======
         "instaLink":"https://www.instagram.com/prash_482/",
         "linkedinLink":"https://www.linkedin.com/in/prasant-sahu-0b236923a",
     },
@@ -101,7 +98,6 @@ const junior = [
         "name":"AGNIBHO",
         "position":"Junior Coordinator",
         "instaLink":"https://www.instagram.com/p/CltOcmjSom4dyd1xqGdx7wkOpgPeHKyjguOJ7U0/?igshid=ODM2MWFjZDg=",
->>>>>>> 810e56de763db1a46db4c0c4bd75550f7ffe8342
         "linkedinLink":"",
     },
     {
