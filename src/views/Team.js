@@ -1,7 +1,5 @@
 import React from "react";
-import classNames from 'classnames';
 import "../assets/css/team.css";
-// import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap';
 import 'react-bootstrap';
 import finalYear from "../assets/Teams/finalYear.js"
@@ -12,7 +10,7 @@ const Team = () => {
     return (
         <>
         <div className="heading-team">
-            <h2 className="heading">OUR TEAM</h2>
+            <h3 className="heading">OUR TEAM</h3>
         </div>
     <div style={{marginTop:"30px"}}>
         <div class="navbar">
@@ -26,9 +24,9 @@ const Team = () => {
         
 
         
-        <div>
+        <div className="container">
         <div className="year" id="officebearers">
-        <h2 className="text">OFFICE BEARERS </h2>
+        <h3 className="text">OFFICE BEARERS </h3>
         </div>
             <div className="teamCard-upper" style={{ display: "flex", alignItems: "center", justifyContent: "center"}}>
             {finalYear.map((element)=>{
@@ -53,9 +51,9 @@ const Team = () => {
             </div>
         </div>
 
-        <div>
+        <div className="container">
         <div className="year" id="seniors">
-        <h2 className="text">SENIOR COORDINATORS </h2>
+        <h3 className="text">SENIOR COORDINATORS </h3>
         </div>
             <div className="teamCard-upper" style={{ display: "flex", alignItems: "center", justifyContent: "center"}}>
             {prefinalYear.map((element)=>{
@@ -80,9 +78,9 @@ const Team = () => {
             </div>
         </div>
 
-        <div>
+        <div className="container">
         <div className="year" id="juniors">
-        <h2 className="text">JUNIOR COORDINATORS</h2>
+        <h3 className="text">JUNIOR COORDINATORS</h3>
         </div>
             <div className="teamCard-upper" style={{ display: "flex", alignItems: "center", justifyContent: "center"}}>
             {secondYear.map((element)=>{

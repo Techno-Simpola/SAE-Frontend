@@ -1,7 +1,7 @@
 html{
   scroll-behavior: smooth;
+  
 }
-
 
 .teamCard-upper {
     display: flex !important;
@@ -15,10 +15,9 @@ html{
 .box {
     width: 100%;
     max-width:200px;
-    height: 320px;
+    height: 230px;
     margin: 15px;
     display: flex;
-    /* flex-direction: column; */
     flex-wrap:wrap;
     position: relative;
     overflow: hidden;
@@ -78,7 +77,10 @@ html{
 
 
 .heading-team {
+  
+  margin: auto 0;
   display: flex;
+  justify-content: center;
   color: white;
   margin-top: 3%;
 }
@@ -91,11 +93,15 @@ html{
   flex: 1;
 }
 .heading {
+  margin-top: 0;
+  margin-bottom: 0;
   position: relative;
   padding: 0.25em 1em;
   overflow: hidden;
   background: linear-gradient(currentcolor, currentcolor) no-repeat top center, linear-gradient(currentcolor, currentcolor) no-repeat bottom center;
   background-size: calc(100% - 1.65em) 1px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 40px;
 }
 .heading:before,
 .heading:after {
@@ -117,23 +123,25 @@ html{
 
 .year{
     text-align: center;
-    margin-top: 7%;
+    margin-top: 0;
     margin-bottom: 0;
     text-shadow: 2px 2px 4px #000000;
     display:inline-block;
     display: flex;
     justify-content: center;
-    /* padding-left: 15%;    */
+    
 }
 
 .text {
     position: relative;
-    
     padding: 8px;
     transition: 0.2s;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 1px;
   }
   
   .text::after {
+    color: red;
     background: none repeat scroll 0 0 transparent;
     bottom: 0;
     content: "";
@@ -141,12 +149,15 @@ html{
     height: 2px;
     left: 50%;
     position: absolute;
-    background: #ddd;
+    background: white;
     transition: width 0.3s ease 0s, left 0.3s ease 0s;
     width: 0;
+    
+    
   }
   
   .text:hover::after {
+    color: red;
     width: 100%;
     left: 0;
   }
@@ -206,21 +217,23 @@ html{
 
   
 .navbar {
-  /* top:2%; */
+  
   width:100%;
   list-style-type: none;
-  margin: auto;
-  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
   overflow: hidden;
   border-radius: 3px;
   background-color: rgb(62, 62, 62);
   text-align:center;
   padding: auto;
- 
+  
 }
 
 
 .navbar a {
+  letter-spacing: 1px;
   display:inline-block;
   margin: 0 3% ;
   font-size: 23px;
@@ -230,11 +243,12 @@ html{
   padding: 14px 18px;
   text-decoration: none;
   transition: all 0.2s ease-in-out;
+  font-family: 'Montserrat', sans-serif;
   
 }
 
 .navbar a:hover{
-color:rgb(35, 35, 35);
+color:red;
 }
 
 

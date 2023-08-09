@@ -3,16 +3,16 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: #151719;
+    background-color: transparent;
     overflow: hidden;
     z-index: 9999;
-    margin-right: 5rem;
     width: 100%;
   }
   
+  /* #151719 */
   .tedNavbar> a{
     font-weight: 700;
-    font-size: 31px;
+    font-size: 20px;
     margin: 15px;
     color: #ffffff;
   }
@@ -89,7 +89,7 @@
       align-items: center;
       justify-content: center;
       gap: 5px;
-      background-color: black;
+      background-color: transparent;
       transition: 0.5s;
       transform: translateY(-100%);
     }
