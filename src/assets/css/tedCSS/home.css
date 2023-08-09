@@ -6,7 +6,6 @@
 
 .transparent-background-ted{
     width: 100%;
-    height:910px;
     position: absolute;
     z-index: 1;
     top: 0;
@@ -100,8 +99,7 @@ font-family: 'Lato', sans-serif;
   height: 26rem;
   border-radius:20px;
 }
-
-/* gallery */ 
+ 
 .carousels{
     display: flex;
     margin-bottom:150px;
@@ -298,7 +296,6 @@ img:nth-child(11) {
   animation-delay: 20s;
 }
 
-/* speakers  */
 
 .speakers{
     display: flex;
@@ -311,9 +308,6 @@ img:nth-child(11) {
     margin:25px;
     border-top:2px solid white;
 }
-
-/* */ 
-/* Globals */
 
 
 
@@ -334,20 +328,19 @@ p {
   margin-top: var(--flow-space, 1em);
 }
 
-/* Composition */
 .team {
   --flow-space: 2em;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content:space-evenly;
   margin-top:80px;
+  margin-right:20px;
 }
 
-/* Blocks */
 .profile {
   display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
+  flex-direction:column;
+  justify-content: flex-end; 
   aspect-ratio: 1/1;
   position: relative;
   padding: 1.5rem;
@@ -358,7 +351,7 @@ p {
   width:300px;
   height:300px;
   border-radius:20px;
-  margin-bottom:67px;
+  margin-bottom:60px;
 }
 
 .profile::before,
@@ -366,9 +359,9 @@ p {
   content: "";
   width: 100%;
   height: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
+  position:absolute;
+  top:0;
+  left:0;
 }
 
 .profile::before {
@@ -473,13 +466,7 @@ p {
   transform: scale(1.05) rotate(1deg);
 }
 
-  
-  /* */ 
 
-
-
-
-/*  members  */
 .members{
     display: flex;
     margin-top:140px;
@@ -488,7 +475,7 @@ p {
   z-index: 0;
   width: 100%;
   display: flex;
-  justify-content: space-around;
+  justify-content:space-evenly;
   flex-wrap: wrap;
   margin-top:80px;
 }
@@ -499,7 +486,7 @@ p {
     border-top:2px solid white;
 }
 .card {
-  margin-bottom:50px;
+  margin-bottom:64px;
   width:300px;
   height: 300px;
   border-radius: 40px;
@@ -592,10 +579,10 @@ box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25), -5px -5px 30px 7px rgba(0,0,0,0.2
     justify-content: center;
     align-items: center;
   }
-  /**/
+
   .transparent-background-ted{
     width: 100%;
-    height:700px;
+    height:750px;
     position: absolute;
     z-index: 1;
     top: 0;
@@ -685,6 +672,7 @@ box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25), -5px -5px 30px 7px rgba(0,0,0,0.2
   justify-content:center;
   align-items: center;
   flex-wrap: wrap;
+  margin-right:0px;
 }
 
 

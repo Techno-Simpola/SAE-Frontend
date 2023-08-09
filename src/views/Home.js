@@ -19,10 +19,8 @@ const Home = () => {
       <Hero className="illustration-section-01" />
       <Testimonial topDivider />
       <Faculty />
-      {/* <OffB /> */}
       <FeaturesSplit invertMobile topDivider imageFill className="illustration-section-02" />
-      {/* <Timeline /> */}
-      {/* <FeaturesTiles /> */}
+      
       <Baja/>
       <Cryptech/>
       <Lastpart/>

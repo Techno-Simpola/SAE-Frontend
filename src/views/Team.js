@@ -1,4 +1,9 @@
 import React from "react";
+<<<<<<< HEAD
+=======
+import { Link, to } from "react-router-dom";
+import classNames from 'classnames';
+>>>>>>> 810e56de763db1a46db4c0c4bd75550f7ffe8342
 import "../assets/css/team.css";
 import 'bootstrap';
 import 'react-bootstrap';

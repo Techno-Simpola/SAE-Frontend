@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link, to } from 'react-router-dom';
 import classNames from 'classnames';
 import { SectionTilesProps } from '../../utils/SectionProps';
 import SectionHeader from './partials/SectionHeader';
@@ -15,9 +16,7 @@ const defaultProps = {
 const Testimonial = ({
   className,
   topOuterDivider,
-  // bottomOuterDivider,
   topDivider,
-  // bottomDivider,
   hasBgColor,
   invertColor,
   pushLeft,
@@ -27,7 +26,6 @@ const Testimonial = ({
   const outerClasses = classNames(
     'testimonial section',
     topOuterDivider && 'has-top-divider',
-    // bottomOuterDivider && 'has-bottom-divider',
     hasBgColor && 'has-bg-color',
     invertColor && 'invert-color',
     className
@@ -70,7 +68,7 @@ const Testimonial = ({
                   <span className="testimonial-item-name text-color-high">Aarohan</span>
                   <span className="text-color-low"> / </span>
                   <span className="testimonial-item-link">
-                    <a href="/arhn">Annual Fest</a>
+                    <Link to="/arhn">Annual Fest</Link>
                   </span>
                 </div>
               </div>
@@ -87,7 +85,7 @@ const Testimonial = ({
                   <span className="testimonial-item-name text-color-high">TEDx</span>
                   <span className="text-color-low"> / </span>
                   <span className="testimonial-item-link">
-                    <a href="/ted">NIT Durgapur</a>
+                    <Link to="/ted">NIT Durgapur</Link>
                   </span>
                 </div>
               </div>
@@ -104,7 +102,7 @@ const Testimonial = ({
                   <span className="testimonial-item-name text-color-high">Events</span>
                   <span className="text-color-low"> / </span>
                   <span className="testimonial-item-link">
-                    <a href="/events">Work Flow</a>
+                    <Link to="/events">Work Flow</Link>
                   </span>
                 </div>
               </div>

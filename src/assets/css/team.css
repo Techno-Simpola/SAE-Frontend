@@ -7,7 +7,6 @@ html{
     display: flex !important;
     align-items: center !important;
     justify-content: center !important;
-    /* margin-top: 100px !important; */
     flex-wrap: wrap;
 
 }
@@ -129,7 +128,10 @@ html{
     display:inline-block;
     display: flex;
     justify-content: center;
+<<<<<<< HEAD
     
+=======
+>>>>>>> 810e56de763db1a46db4c0c4bd75550f7ffe8342
 }
 
 .text {
@@ -184,7 +186,6 @@ html{
   
   .social-links a .fab {
     font-size: 30px;
-    /* line-height: 2px; */
     position: relative;
     z-index: 10;
     transition: color 0.5s;
@@ -217,7 +218,10 @@ html{
 
   
 .navbar {
+<<<<<<< HEAD
   
+=======
+>>>>>>> 810e56de763db1a46db4c0c4bd75550f7ffe8342
   width:100%;
   list-style-type: none;
   margin: 0;
@@ -255,7 +259,7 @@ color:red;
 
 @media only screen and (max-width: 820px){
   .navbar a{
-    font-size: 17px;
+    font-size: 16px;
   }
 
 } 
@@ -269,7 +273,7 @@ color:red;
       margin: 0;
     }
     .navbar a{
-      font-size: 10px;
+      font-size: 9px;
       font-weight: 400;
       padding: 0;
     }

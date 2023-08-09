@@ -8,8 +8,12 @@
     z-index: 9999;
     width: 100%;
   }
+<<<<<<< HEAD
   
   /* #151719 */
+=======
+ 
+>>>>>>> 810e56de763db1a46db4c0c4bd75550f7ffe8342
   .tedNavbar> a{
     font-weight: 700;
     font-size: 20px;
@@ -76,7 +80,6 @@
     }
   
     .tedNavbar>.nav-items {
-  
       position: fixed;
       top: 0;
       left: 0;
@@ -102,7 +105,6 @@
         font-size: 24px;
       }
       
-  
     .tedNavbar>.nav-items.open {
       transform: translateY(0);
     }

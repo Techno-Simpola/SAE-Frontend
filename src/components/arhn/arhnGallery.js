@@ -100,10 +100,7 @@ const Gallery = () => {
     <>
     <div className={model ? "model open" : "model"}>
     <img src={tempimgSrc} alt="" />
-    {/* <CloseIcon onClick={()=>
-    {
-      setModel(false)
-    }} /> */}
+    
     </div>
       <div className="arhn_gallery">
         <div className="arhn_div_heading_new">

@@ -3,12 +3,7 @@ import React, { useState } from 'react';
 import '../../assets/css/tedCSS/style.css';
 // import CloseIcon from '@material-ui/icons/Close';
 
-import img4 from '../../assets/images/g1.JPG'
-import img2 from '../../assets/images/g2.JPG'
-import img3 from '../../assets/images/g3.JPG'
-import img5 from '../../assets/images/g4.JPG'
-import img6 from '../../assets/images/g5.JPG'
-import img7 from '../../assets/images/g6.jpg'
+
 
 const Gallery = () => {
 
@@ -81,26 +76,52 @@ const Gallery = () => {
 
     {
       id: 15,
-      imgSrc:'https://live.staticflickr.com/65535/52770039962_72bc8e3de0_z.jpg',
-    },
-
-    {
-      id: 16,
       imgSrc:'https://live.staticflickr.com/65535/52770863104_7d5f462733_z.jpg',
     },
 
     {
-      id: 17,
+      id: 16,
       imgSrc:'https://live.staticflickr.com/65535/52770845889_2a48f7a59f_z.jpg',
     },
 
+ 
     {
-      id: 18,
-      imgSrc:'https://live.staticflickr.com/65535/52770845889_2a48f7a59f_z.jpg',
+      id: 17,
+      imgSrc:'https://live.staticflickr.com/65535/52771023680_9c71d6edfa.jpg',
     },
     {
       id: 18,
-      imgSrc:'https://live.staticflickr.com/65535/52771023680_9c71d6edfa.jpg',
+      imgSrc:'https://live.staticflickr.com/65535/52780953624_a6fafa6621_w.jpg',
+    },
+    {
+      id: 19,
+      imgSrc:'https://live.staticflickr.com/65535/52780703426_e3eaa82d0e_w.jpg',
+    },
+    {
+      id: 20,
+      imgSrc:'https://live.staticflickr.com/65535/52780703181_c207a81045_w.jpg',
+    },
+    {
+      id: 21,
+      imgSrc:'https://live.staticflickr.com/65535/52780702936_cde4351896_w.jpg',
+    },
+    {
+      id: 22,
+      imgSrc:'https://live.staticflickr.com/65535/52781116230_5843b71e04_w.jpg',
+    },
+    
+    {
+      id: 23,
+      imgSrc:'https://live.staticflickr.com/65535/52780962044_1a49748d7f_w.jpg',
+    },
+    
+    {
+      id: 24,
+      imgSrc:'https://live.staticflickr.com/65535/52780971074_f48c436e4a_w.jpg',
+    },
+    {
+      id: 25,
+      imgSrc:'https://live.staticflickr.com/65535/52780185492_f2059d2a26_w.jpg',
     },
     
 
@@ -120,10 +141,6 @@ const Gallery = () => {
     <>
     <div className={model ? "model open" : "model"}>
     <img src={tempimgSrc} alt="" />
-    {/* <CloseIcon onClick={()=>
-    {
-      setModel(false)
-    }} /> */}
     </div>
     <div className="gallery">
      

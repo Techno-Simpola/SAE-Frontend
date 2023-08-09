@@ -21,7 +21,7 @@ const Logo = ({
       <h1 className="m-0">
         <Link to="/">
           <Image
-            src={require('./../../../assets/images/saeLogo.png')}
+            src={require('./../../../assets/images/SAE_White.png')}
             alt="Open"
             width={70}
             height={60} />

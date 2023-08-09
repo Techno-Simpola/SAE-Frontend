@@ -8,7 +8,6 @@ const LayoutDefault = ({ children }) => (
     <main className="site-content">
       {children}
     </main>
-    {/* <Banner /> */}
     <Footer />
   </>
 );
