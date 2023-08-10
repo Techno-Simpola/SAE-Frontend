@@ -8,12 +8,7 @@
     z-index: 9999;
     width: 100%;
   }
-<<<<<<< HEAD
-  
-  /* #151719 */
-=======
  
->>>>>>> 810e56de763db1a46db4c0c4bd75550f7ffe8342
   .tedNavbar> a{
     font-weight: 700;
     font-size: 20px;
@@ -92,7 +87,7 @@
       align-items: center;
       justify-content: center;
       gap: 5px;
-      background-color: transparent;
+      background-color: black;
       transition: 0.5s;
       transform: translateY(-100%);
     }
