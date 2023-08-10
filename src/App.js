@@ -10,7 +10,7 @@ import LayoutDefault from './layouts/LayoutDefault';
 // Views 
 import Home from './views/Home';
 import Team from './views/Team';
-// import Alumni from './views/Alumni';
+import Alumni from './views/Alumni';
 import Events from './views/Events';
 import Arhn from './views/Arhn';
 import Ted from './views/Ted';
@@ -49,8 +49,8 @@ const App = () => {
           <AppRoute exact path="/events" component={Events} layout={LayoutDefault} />
           <AppRoute exact path="/ted" component={Ted} layout={LayoutDefault} />
           <AppRoute exact path="/arhn" component={Arhn} layout={LayoutDefault} />
-          <AppRoute exact path="/alumni" component={HallofFame} layout={LayoutDefault} />
-          {/* <AppRoute exact path="/alumini" component={Alumni} layout={LayoutDefault} /> */}
+          {/* <AppRoute exact path="/alumni" component={HallofFame} layout={LayoutDefault} /> */}
+          <AppRoute exact path="/alumni" component={Alumni} layout={LayoutDefault} />
         </Switch>
       )} />
   );

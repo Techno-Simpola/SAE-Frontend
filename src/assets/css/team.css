@@ -128,10 +128,6 @@ html{
     display:inline-block;
     display: flex;
     justify-content: center;
-<<<<<<< HEAD
-    
-=======
->>>>>>> 810e56de763db1a46db4c0c4bd75550f7ffe8342
 }
 
 .text {
@@ -218,10 +214,6 @@ html{
 
   
 .navbar {
-<<<<<<< HEAD
-  
-=======
->>>>>>> 810e56de763db1a46db4c0c4bd75550f7ffe8342
   width:100%;
   list-style-type: none;
   margin: 0;
