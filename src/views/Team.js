@@ -19,9 +19,7 @@ const Team = () => {
           <a href="#officebearers">OFFICE BEARERS</a>
           <a href="#seniors">SENIOR COORDIANTOR</a>
           <a href="#juniors">JUNIOR COORDIANTOR</a>
-          
         </div> 
-
     </div>
         
 
@@ -75,8 +73,6 @@ const Team = () => {
 
                 
             })}
-               
-
             </div>
         </div>
 
@@ -98,9 +94,7 @@ const Team = () => {
                         <a  href={element.linkedinLink}><i className="fab fa-linkedin-in"></i></a>
                         </div>
                     </div>
-                </div>
-
-                
+                </div> 
             })}
                
 

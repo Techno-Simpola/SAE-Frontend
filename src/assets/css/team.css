@@ -1,14 +1,14 @@
 html{
   scroll-behavior: smooth;
-  
 }
+
 
 .teamCard-upper {
     display: flex !important;
     align-items: center !important;
     justify-content: center !important;
     flex-wrap: wrap;
-
+    
 }
 
 .box {
@@ -244,7 +244,7 @@ html{
 }
 
 .navbar a:hover{
-color:red;
+  color:red;
 }
 
 
@@ -257,17 +257,32 @@ color:red;
 } 
 
   @media only screen and (max-width: 420px){
+
+    .navbar {
+      width:100%;
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      border-radius: 3px;
+      background-color: rgb(62, 62, 62);
+      /* text-align:center; */
+      /* padding: auto; */
+      
+    }
+    
     .heading-team{
       text-align: center;
     }
     .navbar{
-      border: 0;
+      padding: 0;
       margin: 0;
+      
     }
     .navbar a{
-      font-size: 9px;
-      font-weight: 400;
+      font-size: 8px;
+
+      font-weight: bolder;
       padding: 0;
     }
-
   }
