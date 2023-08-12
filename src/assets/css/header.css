@@ -42,6 +42,8 @@
     position: relative;
     opacity: 0.9;
   }
+
+  
   
   .ted-Navbar>.nav-items>a:hover {
     opacity: 1;

@@ -5,6 +5,8 @@ import classNames from 'classnames';
 import Logo from './partials/Logo';
 import FooterNav from './partials/FooterNav';
 import FooterSocial from './partials/FooterSocial';
+import ScrollToTop from "react-scroll-to-top";
+
 
 const propTypes = {
   topOuterDivider: PropTypes.bool,
@@ -17,6 +19,8 @@ const defaultProps = {
 }
 
 const Footer = ({
+
+ 
   className,
   topOuterDivider,
   topDivider,
@@ -49,6 +53,9 @@ const Footer = ({
             <div className="footer-copyright">Made by <Link to="">SAE-Dev</Link>. All right reserved</div>
           </div>
         </div>
+        
+        <ScrollToTop smooth color='white' style={{backgroundColor: 'red', borderRadius:'50%'}} />
+       
       </div>
     </footer>
   );
