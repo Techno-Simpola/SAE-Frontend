@@ -38,7 +38,7 @@ const toggle = () => setIsOpen(!isOpen);
         <Link onClick={toggle} to="/team">Teams</Link>
         <Link  onClick={toggle} to="/ted">TEDx</Link>
         <Link  onClick={toggle} to="/arhn">Aarohan</Link> 
-        {/* <Link  onClick={toggle} to="/alumni">Alumni</Link>  */}
+        <Link  onClick={toggle} to="/alumni">Alumni</Link> 
 
 
 

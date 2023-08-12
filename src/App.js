@@ -14,7 +14,7 @@ import Alumni from './views/Alumni';
 import Events from './views/Events';
 import Arhn from './views/Arhn';
 import Ted from './views/Ted';
-import HallofFame from './views/HallofFame'
+
 
 
 

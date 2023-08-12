@@ -1,6 +1,4 @@
 import React from "react";
-import { Link, to } from "react-router-dom";
-import classNames from 'classnames';
 import "../assets/css/team.css";
 import 'bootstrap';
 import 'react-bootstrap';
@@ -42,9 +40,7 @@ const Team = () => {
                         <a  href={element.linkedinLink}><i className="fab fa-linkedin-in"></i></a>
                         </div>
                     </div>
-                </div>
-
-                
+                </div> 
             })}
                
 
