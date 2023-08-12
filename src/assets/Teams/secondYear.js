@@ -34,71 +34,7 @@ const junior = [
         "instaLink":"https://www.instagram.com/prash_482/",
         "linkedinLink":"https://www.linkedin.com/in/prasant-sahu-0b236923a",
     },
-    
-    {
-        "url":"https://live.staticflickr.com/65535/52771200973_e82464442d_n.jpg" ,
-        "name":"SOURASISH",
-        "position":"Junior Coordinator",
-        "instaLink":"https://www.instagram.com/invites/contact/?i=16eu1lpvu5kek&utm_content=46ycqg3",
-        "linkedinLink":"https://www.linkedin.com/in/sourasish-paul-89b360226",
-    },
-    {
-        "url":"https://live.staticflickr.com/65535/52771983583_2608a2379e_w.jpg" ,
-        "name":"Biswajit",
-        "position":"Junior Coordinator",
-        "instaLink":"https://instagram.com/biswa_410?igshid=YmMyMTA2M2Y=",
-        "linkedinLink":" https://www.linkedin.com/in/biswajit-garai-41a454234",
-    },
-    {
-        "url":"https://live.staticflickr.com/65535/52771545716_f8fd7cd973_n.jpg" ,
-        "name":"SIDDHARTH PRASAD",
-        "position":"Junior Coordinator",
-        "instaLink":"https://www.instagram.com/p_sidd016/",
-        "linkedinLink":"https://www.linkedin.com/in/siddharth-prasad-a83336243",
-    },
-    {
-        "url":"https://live.staticflickr.com/65535/52771545751_52074e4540_w.jpg" ,
-        "name":"ANIKET KAMBLE",
-        "position":"Junior Coordinator",
-        "instaLink":"https://www.instagram.com/aniketkamble9192/",
-        "linkedinLink":"https://www.linkedin.com/in/aniket-kamble-068803183",
-    },
-    
-    {
-        "url":"https://live.staticflickr.com/65535/52771494781_6e0ca2e5c6_w.jpg" ,
-        "name":"Bireshwar",
-        "position":"Junior Coordinator",
-        "instaLink":"https://instagram.com/im_bireshwar?igshid=YmMyMTA2M2Y=",
-        "linkedinLink":"https://www.linkedin.com/in/bireshwar-hansda-a85a4a1b5/",
-    },
-    {
-        "url":"https://live.staticflickr.com/65535/52771058662_34408c67b5_w.jpg" ,
-        "name":"Shiv Mangal Pnadey",
-        "position":"Junior Coordinator",
-        "instaLink":"https://instagram.com/p_shivmangal?igshid=YmMyMTA2M2Y=",
-        "linkedinLink":"https://www.linkedin.com/in/shiv-mangal-pandey-0b6455237/",
-    },
-    {
-        "url":"https://live.staticflickr.com/65535/52772017960_13047e17e4_n.jpg" ,
-        "name":"RISHAV MONDAL",
-        "position":"Junior Coordinator",
-        "instaLink":"https://www.instagram.com/ajoykumar_m/",
-        "linkedinLink":"https://www.linkedin.com/in/rishav-mondal-6006a2211",
-    },
-    {
-        "url":"https://live.staticflickr.com/65535/52771602331_bc777f420f_n.jpg" ,
-        "name":"SAI PRAKASH",
-        "position":"Junior Coordinator",
-        "instaLink":"https://www.instagram.com/invites/contact/?i=8n4vsoq52ti0&utm_content=i9tna3z",
-        "linkedinLink":"https://www.linkedin.com/in/sai-prakash-katravath-090a5a235",
-    },
-    {
-        "url":"https://live.staticflickr.com/65535/52776733306_014204a074_m.jpg" ,
-        "name":"AGNIBHO",
-        "position":"Junior Coordinator",
-        "instaLink":"https://www.instagram.com/p/CltOcmjSom4dyd1xqGdx7wkOpgPeHKyjguOJ7U0/?igshid=ODM2MWFjZDg=",
-        "linkedinLink":"",
-    },
+ 
     {
         "url":"https://live.staticflickr.com/65535/52966207433_cb91a81c21_n.jpg",
         "name":"Doki Manoj Kumar",
