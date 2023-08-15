@@ -1,6 +1,6 @@
 const finalYear = [ 
     {
-        "url":"https://live.staticflickr.com/65535/52770752569_2b8ecca0dc_n.jpg",
+        "url":"https://gcdnb.pbrd.co/images/SXugFkV49v0t.jpg?o=1",
         "name":"Rahul Kashyap",
         "position":"President",
         "instaLink":"https://instagram.com/rahulkshp64?igshid=YmMyMTA2M2Y=",
