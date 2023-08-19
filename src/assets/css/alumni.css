@@ -159,3 +159,9 @@ figure.snip0078 .social-links a {
 .social-links a .fa-linkedin-in::after {
   background: linear-gradient(-45deg, #ed1c94, #ffec17); /* Gradient for the second link */
 }
+
+@media only screen and (max-width: 768px) {
+  .alumni-heading{
+    font-size: 25px;
+  }
+}
