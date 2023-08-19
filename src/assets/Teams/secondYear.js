@@ -7,14 +7,14 @@ const junior = [
         "linkedinLink":"https://www.linkedin.com/in/aman-singh-16273727a",
     },
     {
-        "url":"https://live.staticflickr.com/65535/52965744301_5a350ea0c2_n.jpg",
+        "url":"https://live.staticflickr.com/65535/53127098654_daac794073_m.jpg",
         "name":"Aniruddha Roy",
         "position":"Junior Coordinator",
         "instaLink":"",
         "linkedinLink":"https://www.linkedin.com/in/aniruddha-roy-b3b233261",
     },
     {
-        "url":"https://live.staticflickr.com/65535/52966124900_f0cb097f37_n.jpg",
+        "url":"https://live.staticflickr.com/65535/53127103549_1983911a07_t.jpg",
         "name":"Aryan Gupta",
         "position":"Junior Coordinator",
         "instaLink":"",
@@ -155,7 +155,7 @@ const junior = [
         "linkedinLink":"https://www.linkedin.com/in/samaseen-prabhat-b90909262",
     },
     {
-        "url":"https://live.staticflickr.com/65535/52966124490_8b72841a6c_n.jpg",
+        "url":"https://live.staticflickr.com/65535/53126903891_f475cba476_t.jpg",
         "name":"Sarvpalli Arya",
         "position":"Junior Coordinator",
         "instaLink":"https://instagram.com/shivangi_._queen?igshid=NGExMmI2YTkyZg==",
@@ -169,7 +169,7 @@ const junior = [
         "linkedinLink":"https://www.linkedin.com/in/soumya-raj-78685727a",
     },
     {
-        "url":"https://live.staticflickr.com/65535/52965149772_bbabddefab_w.jpg",
+        "url":"https://live.staticflickr.com/65535/53126313107_106838b187_t.jpg",
         "name":"Tarak Suhas Abhiram",
         "position":"Junior Coordinator",
         "instaLink":"",
@@ -248,3 +248,9 @@ const junior = [
 
 ]
 export default junior;
+
+
+
+
+
+

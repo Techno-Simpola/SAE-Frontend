@@ -192,7 +192,7 @@ const prefinalYear=[
         "linkedinLink":"https://www.linkedin.com/in/sai-prakash-katravath-090a5a235",
     },
     {
-        "url":"" ,
+        "url":"https://live.staticflickr.com/65535/53127365808_16bfac199a_m.jpg " ,
         "name":"AGNIBHO",
         "position":"Senior Coordinator",
         "instaLink":"https://www.instagram.com/.agnibho._/?hl=en",
@@ -204,3 +204,5 @@ const prefinalYear=[
 ]
 
 export default prefinalYear;
+
+

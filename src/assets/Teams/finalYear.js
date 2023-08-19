@@ -121,7 +121,7 @@ const finalYear = [
     },
     
 {
-    "url":"https://live.staticflickr.com/65535/52771910785_8dc4e758fb_w.jpg" ,
+    "url":"https://live.staticflickr.com/65535/53127082214_560dc78757_n.jpg"  ,
     "name":"Kushal Sarda",
     "position":"WEBD Head",
     "instaLink":"https://instagram.com/kumarpathaknavin?igshid=YmMyMTA2M2Y=",
@@ -144,7 +144,7 @@ const finalYear = [
     
 
 {
-    "url":"https://live.staticflickr.com/65535/52771029568_2b97d34bdf_w.jpg" ,
+    "url":"https://live.staticflickr.com/65535/53126284227_4a0c1c0c46_m.jpg"  ,
     "name":"M. Vishnu Vardhan Reddy",
     "position":"Head ATH",
     "instaLink":"https://instagram.com/vvreddy_2709?igshid=YmMyMTA2M2Y=",
@@ -191,3 +191,6 @@ const finalYear = [
 ]
 
 export default finalYear;
+
+
+

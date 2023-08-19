@@ -194,10 +194,19 @@ html{
     top: -90px;
     left: 0;
     background: #000;
-    background: linear-gradient(-45deg, #ed1c94, #ffec17);
+    /* background: linear-gradient(-45deg, #ed1c94, #ffec17); */
     position: absolute;
     transition: 0.5s;
   }
+
+  .social-links a:first-child::after {
+    background: linear-gradient(-45deg, #ed1c94, #ffec17);
+  }
+  
+  .social-links a:last-child::after {
+    background: linear-gradient(-45deg, #170136, #013f86);
+  }
+  
   
   .social-links a:hover::after {
     top: 0;

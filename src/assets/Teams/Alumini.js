@@ -115,7 +115,7 @@ const  alumini=[
         "linkedinLink":"https://www.linkedin.com/in/souham-banerjee-a407b5185/",
     },
     {
-        "url":"https://live.staticflickr.com/65535/52768603631_6c29ca06f5_n.jpg" ,
+        "url":"https://live.staticflickr.com/65535/53126268392_96da2b46cf_b.jpg"  ,
         "name":"Koena Saha"
 ,        "instaLink":"https://instagram.com/_mistalee_koena?igshid=YmMyMTA2M2Y=",
         "linkedinLink":"https://www.linkedin.com/in/koena-saha-869920200/",
@@ -179,3 +179,4 @@ const  alumini=[
 
 
 export default alumini;
+

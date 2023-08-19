@@ -23,9 +23,6 @@ export const Baja = () => {
           The team designs, fabricates and competes against other All-Terrain
           Vehicles at an event popularly called as BAJA SAE which is held
           annually every year at Pithampur, Indore.
-          <Link to="https://saenitdgp-self.vercel.app/baja">
-            <button id="button-baha">Read more</button>
-          </Link>
         </div>
       </div>
       </div>

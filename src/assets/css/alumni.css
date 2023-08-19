@@ -1,103 +1,161 @@
-.body {
+/* Your other CSS rules ... */
+
+.alumni-body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.alumni-heading{
   font-family: 'Montserrat', sans-serif;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  min-height: 100vh;
+  
 }
 
-.card-alumni {
-  position: relative;
-  width: 270px;
-  height: 340px; /* Adjusted height */
-  background: #fff;
-  border-radius: 10px;
-  border-top: 1px solid rgba(255, 255, 255, 0.5);
-  backdrop-filter: blur(15px);
-  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.1);
-  background: linear-gradient(to bottom, red, transparent 55%, #fff 45%, #fff 100%);
-  overflow: hidden; /* Added overflow */
-}
-
-
-.img-bx {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 110%; /* Adjusted height */
-  border-radius: 10px;
-  overflow: hidden;
-  transform: translateY(30px) scale(0.5);
-  transform-origin: top;
-}
-
-.img-bx img {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-
-.content {
-  height: 60%;
-  padding-top: 0;
-  top:60%;
-  position: relative;
-  margin-top: 5%;
-  width: 100%;
-  bottom: 0; 
-  padding: 15px;
-  background: rgba(255, 255, 255, 0.9); /* Added background */
-}
-
-.content .detail {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  text-align: center;
-  margin-top: 0;
-}
-
-.content .detail h2 {
-  margin: 0 auto;
-  color: #444;
-  font-size: 1.6em;
-  font-weight: bolder;
-  /* margin-bottom: 5px; */
-}
-
-
-
-.sci {
-  display: flex;
-  justify-content: center; /* Center the links horizontally */
-  margin-top: 10px;
-}
-
-.sci li {
-  list-style: none;
-  margin: 0 10px; /* Adjust margin */
-}
-
-.sci li a {
-  width: 35px; /* Adjust width */
-  height: 35px; /* Adjust height */
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: 50%;
-  background: red; /* Set a background color */
-  font-size: 1.2em; /* Adjust font size */
+figure.snip0078 {
   color: #fff;
+  position: relative;
+  float: left;
+  margin: 0 1rem;
+  min-width: 150px; /* Adjusted minimum width */
+  max-width: 200px; /* Adjusted maximum width */
+  width: 150%;
+  height: 320px; /* Adjusted height */
+  text-align: center;
+  transition: transform 0.3s;
+  overflow: hidden; /* Hide overflowing content */
+  border-radius: 10px;
+  padding-top: 5%;
+  padding-left: 2%;
+ 
+}
+
+figure.snip0078 img {
+  opacity: 1;
+  max-width: 100%;
+  height: 100%; /* Adjust to cover the height of the figure */
+  object-fit: cover; /* Fit the image within the figure */
+  border: 3px solid #000000;
+  transition: transform 0.3s, opacity 0.3s;
+  transform: scale(0.85);
+  transform-origin: 0 0;
+  border-radius: 10px;
+
+}
+
+figure.snip0078:hover {
+  transform: translateY(-8px);
+  z-index: 1;
+
+  
+}
+
+figure.snip0078 img:hover {
+  transform: scale(0.95);
+  opacity: 0.8; /* Lower the opacity on hover */
+  
+}
+
+figure.snip0078 figcaption {
+  width: 70%; /* Adjusted width */
+  height: 40%; /* Adjusted height */
+  position: absolute;
+  background: #000000;
+  padding:0 7px;
+  transition: transform 0.3s, opacity 0.3s;
+  transform: translate(100%, 100%); /* Start hidden in bottom right */
+  opacity: 0; /* Hide by default */
+  box-shadow: 0 0px 10px -10px #000000;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end; /* Align to bottom right */
+  bottom: 0;
+  right: 0;
+  margin-bottom: 0;
+}
+
+figure.snip0078:hover figcaption {
+  transform: translate(0, 0); /* Show on hover */
+  opacity: 1;
+}
+
+figure.snip0078 figcaption h6,
+figure.snip0078 figcaption p {
+  object-fit: cover;
+
+  margin: 0 auto;
+  color: #ffffff;
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+figure.snip0078 figcaption .social-links {
+  width: 100%; /* Adjusted width */
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  /* justify-content: center; Adjust alignment */
+  /* margin-top: px; */
+}
+
+figure.snip0078 .social-links a {
+  width: 40%;
+  height: 50%; 
+  text-align: center;
   text-decoration: none;
+  color: white;
+  box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.05);
+  margin: 20% 10%;
+  padding: auto;
+  border-radius: 10%;
+  position: relative;
+  overflow: hidden;
+  transition: transform 0.5s;
+  padding-top: 2%;
+}
+
+
+
+
+.social-links a .fab {
+  /* font-size: 30px; */
+  position: relative; 
+  z-index: 10;
+  transition: color 0.5s;
+}
+
+.social-links a::after {
+  content: '';
+  width: 100%;
+  height: 80%;
+  top: -90px;
+  left: 0;
+  background: #000;
+  position: absolute;
   transition: 0.5s;
 }
+.social-links a:first-child::after {
+  background: linear-gradient(-45deg, #ed1c94, #ffec17);
+}
 
-.sci li a:hover {
-  background: white; /* Adjust hover background color */
-  color: red;
+.social-links a:last-child::after {
+  background: linear-gradient(-45deg, #170136, #013f86);
+}
+
+.social-links a:hover::after {
+  top: 0;
+}
+
+.social-links a:hover .fab {
+  color: #fff;
+}
+
+.social-links a:hover {
+  transform: translateY(-10px);
+}
+
+
+.social-links a .fa-linkedin-in::after {
+  background: linear-gradient(-45deg, #ed1c94, #ffec17); /* Gradient for the second link */
 }
