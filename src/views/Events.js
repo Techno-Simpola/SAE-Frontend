@@ -123,7 +123,7 @@ SAE is also a part of Team Aavishkar which conducts Aarohan, NIT Durgapur's annu
        <p>This is a thrilling online maze game with twists and turns in every corner, it takes a keen eye and quick thinking to navigate your way to victory.</p>
       </div>
     </div></a>
-    // <button class="custom-btn btn-5"><span><a href='/arhn'>Know More</a></span></button>
+  {/* <button class="custom-btn btn-5"><span><a href='/arhn'>Know More</a></span></button> */}
 </div>
 
 
@@ -161,7 +161,7 @@ Literary Circle, a worldwide, grassroots initiative, that aims to provide a plat
   
       </div>
     </div></a>
-    // <button class="custom-btn btn-5"><span><a href='/ted'>Know More</a></span></button>
+      {/* <button class="custom-btn btn-5"><span><a href='/ted'>Know More</a></span></button> */}
 </div>
 </div>
 </>
