@@ -11,7 +11,7 @@ export const Baja = () => {
         <h1 id="heading-baha" >BAJA SAEINDIA</h1>
        
       <div id="baha-container">
-      <div class="row">
+     
         <div class="col-sm-6" id="img-container">
           <img src="https://linkpicture.com/q/Baha.jpg" alt="" id="baha" />
         </div>
@@ -25,7 +25,7 @@ export const Baja = () => {
           annually every year at Pithampur, Indore.
         </div>
       </div>
-      </div>
+     
     </>
   );
 };

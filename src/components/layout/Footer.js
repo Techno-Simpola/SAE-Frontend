@@ -10,7 +10,7 @@ import yt from '../../assets/images/4202041_video_youtube_logo_social_social med
 // import Logo from './partials/Logo';
 // import FooterNav from './partials/FooterNav';
 // import FooterSocial from './partials/FooterSocial';
-// import ScrollToTop from "react-scroll-to-top";
+import ScrollToTop from "react-scroll-to-top";
 
 
 // const propTypes = {
@@ -110,7 +110,7 @@ function Footer() {
                 <h2>Contact</h2>
                 
                 <div className="address-links">
-                  <li className="address1"><i className="fa fa-location"></i>  Mahatma Gandhi Avenue,
+                  <li className="address1"><i class='fa-solid fa-location-dot'></i>  Mahatma Gandhi Avenue,
 A-Zone, Durgapur, West Bengal
 Durgapur: 713209</li>
                   <li><a><i className="fa fa-phone"></i> +91 8574613029 ( Rahul Kashyap )   </a></li>
@@ -122,7 +122,7 @@ Durgapur: 713209</li>
 
           </div>
         </div>
-
+        <ScrollToTop smooth color='white' style={{backgroundColor: 'red', borderRadius:'50%'}} />
       </footer>
 
       <section id="copy-right">
