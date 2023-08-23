@@ -1,23 +1,19 @@
 
 #footer{
 	background: #0c0c0c;
-	padding-top: 7rem;
-    padding-bottom: 80px;
+	/* padding-top: 7rem; */
+    padding-bottom:20px;
     color: #f7f7f7;
 }
 
 .row{
-    gap:6rem;
+    gap:5%;
 }
 
 
 
 #footer2{
 	background: #f7f7f7;
-    margin-top: 0px;
-	/* padding-top: 5rem; */
-	padding-top: 7rem;
-    padding-bottom: 80px;
 }
 
 .social-links{
