@@ -29,8 +29,9 @@
     width:100%;
     height:100%;
     background: linear-gradient(to bottom, rgba(0,0,0,0.2) 90%,rgba(0,0,0,0.65) 100%);
-    z-index:0
+    z-index:0;
   }
+  
   @keyframes fader {
     0%,30%,100%{ background-image:url('https://imagizer.imageshack.com/img923/2929/77BUMy.jpg')}
     33%,60% { background-image: url('https://imagizer.imageshack.com/img923/360/LWmxVZ.jpg'); }
