@@ -5,9 +5,7 @@
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
     padding-bottom: 20px;
-
-    
-   
+    /* margin-bottom:150px; */
 }
 #img-container{
    display: flex;
@@ -17,6 +15,7 @@
 #baha-container{
     width: 75%;
     margin: auto;
+    margin-bottom:50px;
 }
 
 #heading-baha{
@@ -44,11 +43,11 @@
     color: black;
 
 }
-#baha:hover{
+/* #baha:hover{
      transform: scale(1.2);
      transition: all 0.5s ease;
      
-}
+} */
 
 @media  screen and (max-width: 992px) {
     #heading-baha{

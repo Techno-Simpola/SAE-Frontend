@@ -106,7 +106,7 @@ const FeaturesSplit = ({
                   SAE in TEDx
                   </h3>
                 <p className="m-0">
-                SAE also conducts TEDxNITDurgapur a part of TED along with Literary Circle, a worldwide, grassroots initiative, that aims to provide a platform for a symphony of voices from a plethora of spheres to propagate ingenious ideas and thoughts. / <Link id="tedx-link" className='color-success' to='/ted'>..Know More</Link>
+                SAE also conducts TEDxNITDurgapur a part of TED along with Literary Circle, a worldwide, grassroots initiative, that aims to provide a platform for a symphony of voices from a plethora of spheres to propagate ingenious ideas and thoughts. 
                   </p>
               </div>
               <div className={
@@ -126,16 +126,14 @@ const FeaturesSplit = ({
             <div className="split-item">
               <div className="split-item-content center-content-mobile reveal-from-left" data-reveal-container=".split-item">
                 <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
-                  AAROHAN NIT DURGAPUT
+                  AAROHAN NIT DURGAPUR
                   </div>
                 <h3 className="mt-0 mb-12">
                   SAE IN AAROHAN
                   </h3>
                 <p className="m-0">
                 SAE is also a part of Team Aavishkar which conducts Aarohan, NIT Durgapur's annual Techno-management fest, which includes all facets of technical and festive enthusiasm.
-                 <Link id="Arhn-link" to='/arhn'>
-                      ..Know More
-                 </Link> </p>
+                  </p>
               </div>
               <div className={
                 classNames(

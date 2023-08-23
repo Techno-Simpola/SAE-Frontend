@@ -9,10 +9,15 @@ function ted()
 {
     return (
 <div>
-    <div className='transparent-background-ted'></div>
-    <div className='landing'>
-    <img className='img1' src='https://live.staticflickr.com/65535/52769187787_44c4b302ab_c.jpg'></img> 
-    <img className='img2' src={img4}></img> 
+    {/* <div className='transparent-background-ted'></div> */}
+    <div className='ted-wrapper'>
+    {/* <img className='img1' src='https://live.staticflickr.com/65535/52769187787_44c4b302ab_c.jpg'></img>  */}
+    {/* <img className='img2' src={img4}></img>  */}
+
+    <div className='ted-hero'>
+      <img src={img4} className='ted-img'></img>
+    </div>
+   
     </div>
     <div>
     <div className="upper">

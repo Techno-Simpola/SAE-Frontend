@@ -33,7 +33,6 @@ const FooterSocial = ({
         <li>
           <a href="https://twitter.com/saeindia_nitdgp">
           
-         
         
             <svg
               width="16"

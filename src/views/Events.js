@@ -1,6 +1,7 @@
 import React from 'react';
 import classNames from 'classnames';
 import "../assets/css/events.css";
+import { Link } from 'react-router-dom';
 // import "../components/elements/eventsCarousel.js";
 
 const Events = () => {
@@ -91,7 +92,7 @@ Technological innovations aim to transfer the cognitive load from humans to mach
 
 
 <div className='heading1'>
-<h1 >Aarhon</h1>
+<h1 > <Link to="/arhn" > Aarohan </Link> </h1>
 <p>SAE in Aarohan: 
 SAE is also a part of Team Aavishkar which conducts Aarohan, NIT Durgapur's annual Techno-management fest, which includes all facets of technical and festive enthusiasm.</p>
 </div>
@@ -128,7 +129,7 @@ SAE is also a part of Team Aavishkar which conducts Aarohan, NIT Durgapur's annu
 
 
 <div className='heading1'>
-<h1 >TEDx</h1>
+<h1> <Link to="/ted">TEDx</Link> </h1>
 <p>TEDx: 
 SAE also conducts TEDxNITDurgapur a part of TED along with 
 Literary Circle, a worldwide, grassroots initiative, that aims to provide a platform for a symphony of voices from a plethora of spheres to propagate ingenious ideas and thoughts.</p>
