@@ -4,13 +4,26 @@
 	/* padding-top: 7rem; */
     padding-bottom:20px;
     color: #f7f7f7;
+     margin:0;
 }
 
 .row{
     gap:5%;
 }
+.address{
+    margin:0 auto;
+    width:300px;
+}
 
+.address-links div{
+    margin-top:40px;
+}
 
+.hr{
+    color: #f7f7f7;
+    font-weight:500;
+    font-size:15px;
+}
 
 #footer2{
 	background: #f7f7f7;
@@ -113,3 +126,12 @@ a{
 }
 
 /* footer section end */
+
+@media screen and (max-width:415px) {
+    .social-links{
+        margin-left:40px;
+    }
+    .useful-link{
+        margin-left:30px;
+    }
+}

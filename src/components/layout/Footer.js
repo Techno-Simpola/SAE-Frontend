@@ -5,6 +5,7 @@ import fb from '../../assets/images/317727_facebook_social media_social_icon.png
 import ig from '../../assets/images/instagram.png'
 import li from '../../assets/images/5296501_linkedin_network_linkedin logo_icon.png'
 import yt from '../../assets/images/4202041_video_youtube_logo_social_social media_icon.png'
+import location from '../../assets/images/icons8-location-50.png'
 // import PropTypes from 'prop-types';
 // import classNameNames from 'classNamenames';
 // import Logo from './partials/Logo';
@@ -107,15 +108,28 @@ function Footer() {
             </div>
             <div className="col-md-3">
               <div className="address">
-                <h2>Contact</h2>
+                <h2>Contact Us</h2>
                 
                 <div className="address-links">
-                  <li className="address1"><i class='fa-solid fa-location-dot'></i>  Mahatma Gandhi Avenue,
+                  <li className="address1"> <i className='fas fa-map-marker-alt'></i>  Mahatma Gandhi Avenue,
 A-Zone, Durgapur, West Bengal
 Durgapur: 713209</li>
-                  <li><a><i className="fa fa-phone"></i> +91 8574613029 ( Rahul Kashyap )   </a></li>
-                  <li><a><i className="fa fa-phone"></i>  +91 6396277108 ( Ashutosh Kumar Singh rathore )  </a></li>
-                  <li><a href='mailto:saeindia@nitdgp.ac.in' ><i className="fa fa-envelope"></i> saeindia@nitdgp.ac.in </a></li>
+  <div>
+  <li className='hr'>Official Mail of  SAE </li>
+            <li>   <a href='mailto:saeindia@nitdgp.ac.in' ><i className="fa fa-envelope"></i> saeindia@nitdgp.ac.in </a></li>
+           
+  </div>
+           <div>
+           <li className='hr'>Rahul Kashyap (President)</li>
+                  <li><a><i className="fa fa-phone"></i> +91 8574613029   </a></li>
+                  <li><a href='mailto:president.saeindia@nitdgp.ac.in '><i className="fa fa-envelope"></i> president.saeindia@nitdgp.ac.in   </a></li>
+           </div>
+                 <div>
+                 <li className='hr'> Ashutosh Kumar Singh rathore ( Head of Corporate Communications ) </li>
+                  <li><a><i className="fa fa-phone"></i>  +91 6396277108  </a></li>
+                  <li><a href='mailto:rathoreashutosh3006@gmail.com'>
+                    <i className="fa fa-envelope"></i>  rathoreashutosh3006@gmail.com </a></li>
+                 </div>
                 </div>
               </div>
             </div>
