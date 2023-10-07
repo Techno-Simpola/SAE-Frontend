@@ -20,9 +20,19 @@
     background-repeat:no-repeat;
     background-size:cover;
     overflow:hidden;  
-    animation: fader 20s ease  infinite; 
+    animation: efader 20s ease  infinite; 
     
   }
+  #dropdownMenuButton1{
+    margin-left: 4%;
+    background-color: #e70329;
+    font-size: large;
+    font-weight: bold;
+  }
+  #edrop{
+  background-color: #000;
+  }
+ 
   .event-hero:before{
     content:" ";
     position:absolute;
@@ -32,7 +42,7 @@
     z-index:0;
   }
   
-  @keyframes fader {
+  @keyframes efader {
     0%,30%,100%{ background-image:url('https://imagizer.imageshack.com/img923/2929/77BUMy.jpg')}
     33%,60% { background-image: url('https://imagizer.imageshack.com/img923/360/LWmxVZ.jpg'); }
     63%,97% { background-image: url('https://imagizer.imageshack.com/img922/1165/8vO4GL.jpg') }
