@@ -16,6 +16,24 @@ const Events = () => {
     </h1>
 </div> 
 </div>
+<div></div>
+<div className='heading1'>
+<h1 >Upcoming Events...</h1>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+<div class="dropdown">
+  <button class="btn btn-danger dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+    Events
+  </button>
+  <ul className="dropdown-menu" aria-labelledby="dropdownMenuButton1" id='edrop'>
+    <li><a className="dropdown-item" href="#">SDV</a></li>
+    {/* <li><a class="dropdown-item" href="#">TEDx</a></li> */}
+    
+  </ul>
+</div>
+</div>
+
+
+
 <div className='heading1'>
 <h1 >Drag and Drift</h1>
 <p>SAE hosts a thrilling event 'Drag&Drift' which includes various maze designs with obstacles and avoiding the pesky obstacles subsequently knowing the underlying working of the car.</p>

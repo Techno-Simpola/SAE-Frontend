@@ -1,6 +1,7 @@
 import React from 'react';
 import '../../assets/css/footer.css'
 import { Link, to } from 'react-router-dom';
+import SAELOGO from '../../assets/images/SAE_White.png'
 import fb from '../../assets/images/317727_facebook_social media_social_icon.png'
 import ig from '../../assets/images/instagram.png'
 import li from '../../assets/images/5296501_linkedin_network_linkedin logo_icon.png'
@@ -78,74 +79,86 @@ import ScrollToTop from "react-scroll-to-top";
 function Footer() {
   return (
     <>
-      <footer id="footer">
-        <div className="container">
-          <div className="row">
-            <div className="col-md-3">
-              <div className="useful-link">
-                <h2>Useful Links</h2>
-                <div className="use-links">
-                 <li> &#x27a4; <Link to='/'>Home</Link> </li>
-                 <li>&#x27a4; <Link to='/events'>Events</Link> </li>
-                 <li>&#x27a4; <Link to='/ted'>Tedx</Link> </li>
-                 <li>&#x27a4; <Link to='/arhn'>Aarohan</Link> </li>
-                </div>
-              </div>
+    <footer id="footer">
+    <div className='row footercontent'>
+        <div className='fcol'>
 
-            </div>
+          <p>
+            <a href="https://www.saenitdgp.com/" className='flogo'><img src="https://www.saenitdgp.com/static/media/Logo_final.b75cdbef4fed48981612.png " className='flogo-size' alt="" /></a>
+          </p>
+
+          <h4 className='fh4'>Follow us</h4>
+          <div className='ficons'>
             
-              <div className="social-links">
-                <h2>Follow Us</h2>
-                <div className="social-icons">
-                 
-                  <li><a href="https://www.facebook.com/SAENITD"> <img src={fb}></img> </a></li>
-                  <li><a href="https://www.linkedin.com/company/sae-india-nit-dgp-collegiate-chapter/"> <img src={li}></img></a></li>
-                  <li><a href="https://www.instagram.com/sae.nitd/"> <img src={ig}></img></a></li>
-                  <li><a href="https://youtube.com/@saenitdurgapurcollegiatech7397"> <img src={yt}></img></a></li>
+            <p>
+              <a href="https://www.facebook.com/SAENITD"><img src={fb} className='fsize' /></a>
+            </p>
+
+            <p>
+              <a href="https://www.linkedin.com/company/sae-india-nit-dgp-collegiate-chapter"><img src={li} alt="" className='fsize' /></a>
+            </p>
+            <p>
+              <a href="https://www.instagram.com/sae.nitd/"><img src={yt} alt="" className='fsize' /></a>
+            </p>
+
+            <p>
+              <a href="https://www.youtube.com/@saenitdurgapurcollegiatech7379"><img src={ig} alt="" className='fsize' /></a>
+            </p>
+          </div>
+
+        </div>
+
+        <div className='fcol'>
+          <div className='fpage'>
+            <h4 className='fh4'>Useful links</h4>
+              <div className='fuse-links'>
+                <ul>
                 
-                </div>
-            
-            </div>
-            <div className="col-md-3">
-              <div className="address">
-                <h2>Contact Us</h2>
-                
-                <div className="address-links">
-                  <li className="address1"> <i className='fas fa-map-marker-alt'></i>  Mahatma Gandhi Avenue,
-A-Zone, Durgapur, West Bengal
-Durgapur: 713209</li>
-  <div>
-  <li className='hr'>Official Mail of  SAE </li>
-            <li>   <a href='mailto:saeindia@nitdgp.ac.in' ><i className="fa fa-envelope"></i> saeindia@nitdgp.ac.in </a></li>
+                  <li>&#x27a4;<a href="https://www.saenitdgp.com/"> <Link to='/'>Home</Link></a></li>
+                  <li>&#x27a4;<a href="https://www.saenitdgp.com/events"> <Link to='/'> Events</Link></a></li>
+                  <li>&#x27a4;<a href="https://www.saenitdgp.com/ted"> <Link to='/'> Tedx</Link></a></li>
+                  <li>&#x27a4;<a href="https://www.saenitdgp.com/arhn"> <Link to='/'> Aarohan</Link></a></li>
+                </ul>
+              </div>
            
-  </div>
-           <div>
-           <li className='hr'>Rahul Kashyap (President)</li>
-                  <li><a><i className="fa fa-phone"></i> +91 8574613029   </a></li>
-                  <li><a href='mailto:president.saeindia@nitdgp.ac.in '><i className="fa fa-envelope"></i> president.saeindia@nitdgp.ac.in   </a></li>
-           </div>
-                 <div>
-                 <li className='hr'> Ashutosh Kumar Singh rathore ( Head of Corporate Communications ) </li>
-                  <li><a><i className="fa fa-phone"></i>  +91 6396277108  </a></li>
-                  <li><a href='mailto:rathoreashutosh3006@gmail.com'>
-                    <i className="fa fa-envelope"></i>  rathoreashutosh3006@gmail.com </a></li>
-                 </div>
-                </div>
-              </div>
-            </div>
-
           </div>
         </div>
-        <ScrollToTop smooth color='white' style={{backgroundColor: 'red', borderRadius:'50%'}} />
-      </footer>
 
-      <section id="copy-right">
+        <div className='fcol'>
+          <h4 className='fh4'>Contact Us</h4>
+          <p>Mahatma Gandhi Avenue,A-zone</p>
+          <p>Durgapur,West Bengal Durgapur: 713209</p>
+          <a href="mailto:saeindia@nitdgp.ac.in" className='femail'><i className='fa fa-envelope'></i>saeindia@nitdgp.ac.in</a>
+        </div>
+
+
+        <div className='foffice'>
+          <h4 className='fh4'>Rahul Kashyap </h4>
+          <h5 className='fh5'>(President)</h5>
+          <a href=" " className='femail'> <i className='fa fa-envelope'> </i>president.saeindia@nitdgp.ac.in</a>
+          <p><i className='fa fa-phone'></i>+91 8574613029</p>
+
+          <h4 className='fh4'>Ashutosh Kumar Singh Rathore </h4>
+          <h5 className='fh5'>(Head of Corporate Communition)</h5>
+          <a href="" className='femail'><i className='fa fa-envelope'></i>rathoreasutosh3006@gmail.com</a>
+          <p><i className='fa fa-phone'></i>+91 6396277108</p>
+
+        </div>
+
+      </div>
+
+      
+
+    </footer>
+      
+      { <section id="fcopy-right">
        
-        <div className="copy-right-sec">Made By SAE-Dev . <i className="fa fa-copyright"></i> 
+        <div className="fcopy-right-sec">Made By SAE-Dev . <i className="ffa fa-copyright"></i> 
          2023  <Link>  SAE </Link>. All right reserved. 
         </div>
 
-      </section></>
+      </section> }
+      </>
   )
 }
 
