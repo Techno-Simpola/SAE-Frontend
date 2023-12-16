@@ -22,9 +22,9 @@ function ted()
 </div> 
 </div>
 
-    <div className='ted-hero'>
+    {/* <div className='ted-hero'>
       <img src={img4} className='ted-img'></img>
-    </div>
+    </div> */}
    
     {/* </div> */}
     <div>
