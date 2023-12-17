@@ -24,7 +24,7 @@ const About =()=>{
 
     <div className="arhn_lower">
       <div className="arhn_info" id="arhn_lower-info">
-        <h1>SAE in AAROHAN</h1>
+        <h1>SAE IN AAROHAN</h1>
         <p>
         National Institute of Technology, Durgapur has been a pioneering educational institute for above 50 years. It boasts of students who have achieved par excellence in the field of academics and organization. Aarohan is the Annual Techno-management fest of NIT Durgapur, the 2nd Largest of its kind in the whole of eastern India. It is organised by a group of young enthusiasts under the supervision of highly responsible faculties. This festival has been constantly fostering the enthusiastic students to showcase their talents and uplifting their spirits by taking parts in various events, and imbibing in them a sense of belonging to the competitive world that lies ahead,
         </p>

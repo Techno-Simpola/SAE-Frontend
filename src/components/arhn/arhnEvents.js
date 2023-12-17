@@ -28,7 +28,7 @@ const Events = () => {
 
         <div className="card-container">
       {/* <a href="/" className="hero-image-container"> */}
-        <img className="hero-image" src="https://www.linkpicture.com/q/trans.jpg" alt="Spinning glass cube"/>
+      <img className="hero-image" src="https://www.linkpicture.com/q/trans.jpg" alt="Spinning glass cube"/>
       {/* </a> */}
       <main className="main-content">
         <h1 className="hdng"><a href="#">Equilibrium #3429</a></h1>
@@ -114,7 +114,7 @@ human ingenuity and technological achievement. It combines the best of our physi
       <main className="main-content">
         <h1 className="hdng"><a href="#">Equilibrium #3429</a></h1>
         <p className="para">This event brings together enthusiasts to showcase their piloting skills and technical expertise. It consists of various challenges and tasks designed to test the
-capabilities of the UAVs and their pilots.</p>
+capabilities of the UAVs and their pilots.</p>
         <div className="flex-row">
         
         </div>

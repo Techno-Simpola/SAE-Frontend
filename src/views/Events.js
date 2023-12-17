@@ -19,7 +19,7 @@ const Events = () => {
 <div></div>
 <div className='heading1'>
 <h1 >Upcoming Events...</h1>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+<p>"Upcoming Events: Stay in the Know and Get Ready for Exciting Gatherings! Discover a calendar full of thrilling activities, from concerts to workshops, that are just around the corner. Don't miss out on the opportunity to be part of these memorable moments – mark your calendar and be prepared to make lasting memories."</p>
 <div class="dropdown">
   <button class="btn btn-danger dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
     Events
@@ -127,7 +127,7 @@ SAE is also a part of Team Aavishkar which conducts Aarohan, NIT Durgapur's annu
 
     <a class="carous-card">
     <div class="front" style={{backgroundImage: `url(https://imagizer.imageshack.com/img922/658/6sDJXi.jpg)`}}>
-      <p>3d Printing Worshop</p>
+      <p >3d Printing Worshop</p>
     </div>
     <div class="back">
       <div>

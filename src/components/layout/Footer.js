@@ -98,11 +98,11 @@ function Footer() {
               <a href="https://www.linkedin.com/company/sae-india-nit-dgp-collegiate-chapter"><img src={li} alt="" className='fsize' /></a>
             </p>
             <p>
-              <a href="https://www.instagram.com/sae.nitd/"><img src={yt} alt="" className='fsize' /></a>
+              <a href="https://www.youtube.com/@saenitdurgapurcollegiatech7397"><img src={yt} alt="" className='fsize' /></a>
             </p>
 
             <p>
-              <a href="https://www.youtube.com/@saenitdurgapurcollegiatech7379"><img src={ig} alt="" className='fsize' /></a>
+              <a href="https://www.instagram.com/sae.nitd/"><img src={ig} alt="" className='fsize' /></a>
             </p>
           </div>
 
@@ -115,9 +115,9 @@ function Footer() {
                 <ul>
                 
                   <li>&#x27a4;<a href="https://www.saenitdgp.com/"> <Link to='/'>Home</Link></a></li>
-                  <li>&#x27a4;<a href="https://www.saenitdgp.com/events"> <Link to='/'> Events</Link></a></li>
-                  <li>&#x27a4;<a href="https://www.saenitdgp.com/ted"> <Link to='/'> Tedx</Link></a></li>
-                  <li>&#x27a4;<a href="https://www.saenitdgp.com/arhn"> <Link to='/'> Aarohan</Link></a></li>
+                  <li>&#x27a4;<a href="https://www.saenitdgp.com/events"> <Link to='/Events'> Events</Link></a></li>
+                  <li>&#x27a4;<a href="https://www.saenitdgp.com/ted"> <Link to='/Ted'> Tedx</Link></a></li>
+                  <li>&#x27a4;<a href="https://www.saenitdgp.com/arhn"> <Link to='/Arhn'> Aarohan</Link></a></li>
                 </ul>
               </div>
            
@@ -135,12 +135,12 @@ function Footer() {
         <div className='foffice'>
           <h4 className='fh4'>Rahul Kashyap </h4>
           <h5 className='fh5'>(President)</h5>
-          <a href=" " className='femail'> <i className='fa fa-envelope'> </i>president.saeindia@nitdgp.ac.in</a>
+          <a href="mailto:president.saeindia@nitdgp.ac.in " className='femail'> <i className='fa fa-envelope'> </i>president.saeindia@nitdgp.ac.in</a>
           <p><i className='fa fa-phone'></i>+91 8574613029</p>
 
           <h4 className='fh4'>Ashutosh Kumar Singh Rathore </h4>
           <h5 className='fh5'>(Head of Corporate Communition)</h5>
-          <a href="" className='femail'><i className='fa fa-envelope'></i>rathoreasutosh3006@gmail.com</a>
+          <a href="mailto:rathoreasutosh3006@gmail.com" className='femail'><i className='fa fa-envelope'></i>rathoreasutosh3006@gmail.com</a>
           <p><i className='fa fa-phone'></i>+91 6396277108</p>
 
         </div>
