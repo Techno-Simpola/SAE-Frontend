@@ -115,9 +115,9 @@ function Footer() {
                 <ul>
                 
                   <li>&#x27a4;<a href="https://www.saenitdgp.com/"> <Link to='/'>Home</Link></a></li>
-                  <li>&#x27a4;<a href="https://www.saenitdgp.com/events"> <Link to='/'> Events</Link></a></li>
-                  <li>&#x27a4;<a href="https://www.saenitdgp.com/ted"> <Link to='/'> Tedx</Link></a></li>
-                  <li>&#x27a4;<a href="https://www.saenitdgp.com/arhn"> <Link to='/'> Aarohan</Link></a></li>
+                  <li>&#x27a4;<a href="https://www.saenitdgp.com/events"> <Link to='/events'> Events</Link></a></li>
+                  <li>&#x27a4;<a href="https://www.saenitdgp.com/ted"> <Link to='/ted'> Tedx</Link></a></li>
+                  <li>&#x27a4;<a href="https://www.saenitdgp.com/arhn"> <Link to='/arhn'> Aarohan</Link></a></li>
                 </ul>
               </div>
            
