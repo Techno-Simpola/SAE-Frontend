@@ -134,12 +134,12 @@ function Footer() {
 
         <div className='foffice'>
           <h4 className='fh4'>Rahul Kashyap </h4>
-          <h5 className='fh5'>(President)</h5>
+          <h6 className='fh5'>(President)</h6>
           <a href=" " className='femail'> <i className='fa fa-envelope'> </i>president.saeindia@nitdgp.ac.in</a>
           <p><i className='fa fa-phone'></i>+91 8574613029</p>
 
           <h4 className='fh4'>Ashutosh Kumar Singh Rathore </h4>
-          <h5 className='fh5'>(Head of Corporate Communition)</h5>
+          <h6 className='fh5'>(Head of Corporate Communition)</h6>
           <a href="" className='femail'><i className='fa fa-envelope'></i>rathoreasutosh3006@gmail.com</a>
           <p><i className='fa fa-phone'></i>+91 6396277108</p>
 
